@@ -1,0 +1,14 @@
+Task\ label=MrBayes6133_1000to4000
+Task\ ID=3135474
+Tool=MRBAYES_RESTART_XSEDE
+created\ on=2024-09-11 00:12:37.0
+JobHandle=NGBW-JOB-MRBAYES_RESTART_XSEDE-670E33D7BF0F48829C9732C47A20B723
+RunNumber=1
+resource=popeye
+User\ ID=169345
+User\ Name=ckycyan
+email=s1100452@mail.ncyu.edu.tw
+Output=(ALL_FILES,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=8
+JOBID=2001180

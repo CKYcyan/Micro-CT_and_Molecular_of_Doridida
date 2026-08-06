@@ -1,0 +1,2 @@
+set usebeagle=yes beagleprecision=double beaglesse=yes beaglescaling=dynamic  beaglethreads=no
+execute infile.nex

@@ -1,0 +1,2195 @@
+#NEXUS
+[written Thu Sep 19 22:28:00 GMT+08:00 2024 by Mesquite  version 3.81 (build 955) at MSI/192.168.0.4]
+
+BEGIN TAXA;
+	TITLE 'Taxa154(number)';
+	DIMENSIONS NTAX=154;
+	TAXLABELS
+		Halgerda_batangas Phyllidia_varicosa Jorunna_funebris_ Doriopsis_granulosa Peltodoris_murrea Kaloplocamus_acutus Glossodoris_rufomarginata Aegires_citrinus Actinocyclus_verrucosus Gymnodoris_sp. Cadlinella_ornatissima Berthellina_delicata Pleurobranchus_peronii Hallaxa_sp. Sebadoris_fragilis Chromodoris_colemani Roboastra_gracilis Atagema_intecta Goniobranchus_geometricus Diaphorodoris_mitsuii Halgerda_sp. Phyllidiella_pustulosa Trapania_vitta Cadlinella_subornatissima Aegires_villosus Diversidoris_flava Halgerda_willeyi Reticulidia_fungia 'Dendrodoris tuberculosa (C032)' Hypselodoris_apolegma Doriprismatica_atromarginata Notobryon_wardi Homoiodoris_japonica Thecacera_picta Ceratosoma_sp. Tritonia_sp. Bermudella_sp. Hexabranchus_lacer Phyllidiopsis_shireenae Discodoris_coerulescens Tenellia_sp. Discodoris_boholiensis 'Dendrodoris tuberculosa (C046)' Ringicula_doliaris Bermudella_japonica Halgerda_tessellata Phyllidia_larryi Thorunna_daniellae Martadoris_sp. Verconia_subnivalis Halgerda_guahan Phyllidiopsis_xishaensis Dermatobranchus_semilunus Hydatina_physis_C057 Hydatina_physis_S001 Micromelo_undatus_S003 Micromelo_undatus_S004 Micromelo_undatus_S005 Ringicula_doliaris_S006 Ringiculopsis_foveolata Pleurobranchaea_meckeli Berthellina_citrina Dermatobranchus_semilunus_S014 Armina_loveni Notobryon_wardi_S016 Phestilla_sibogae Trinchesia_caerulea Candiella_plebeia Bathydoris_aioca Prodoris_clavigera_S021 Prodoris_clavigera_S022 Actinocylclus_verrucosus_S023 Hallaxa_iju Hallaxa_indecora Hallaxa_translucens Aegires_albopunctatus Aegires_citrinus_S028 Aegires_flores Aegires_villosus_S030 Cadlinella_ornatissima_S037 Cadlinella_ornatissima_S038 Cadlinella_subornatissima_S039 Aldisa_sanguinea_ Aldisa_sp. Cadlina_jannanicholsae Cadlina_laevis_ Cadlina_modesta Cadlina_pellucida Cadlina_sparsa Diaphorodoris_lirulatocauda Diaphorodoris_luteocincta Diaphorodoris_luteocincta_S054 Diaphorodoris_cf._mitsuii Diaphorodoris_papillata Ceratosoma_trilobatum Chromodoris_alternata Chromodoris_ambigua Chromodoris_quadricolor Diversidoris_aurantionodulosa Doriprismatica_atromarginata_S062 Doriprismatica_atromarginata_S063 Glossodoris_pallida Glossodoris_pallida_S070 Goniobranchus_geometricus_S071 Goniobranchus_geometricus_S072 Hypselodoris_imperialis Hypselodoris_infucata Thorunna_daniellae_S076 Thorunna_furtiva Verconia_verconis Dendrodoris_atromaculata Dendrodoris_krusensternii Dendrodoris_krusenstemii_S087 Doriopsilla_albopunctata Doriopsilla_gemela Doriopsilla_janaina Doriopsilla_miniata Doriopsilla_spaldingi Atagema_notacristata Discodoris_coerulescens_S097 Halgerda_dalanghita Jorunna_tomentosa Peltodoris_nobilis Doris_montereyensis Doris_odhneri Doris_verrucosa Bermudella_angelensis Okenia_amoenula Okenia_nodosa Trapania_reticulata Hexabranchus_aureomarginatus Hexabranchus_lacer_S130 Acanthodoris_atrogriseata Acanthodoris_hudsoni Acanthodoris_nanaimoensis Acanthodoris_pilosa Acanthodoris_planca Acanthodoris_rhodoceras Onchidoris_bilamellata_ Onchidoris_bilamellata_S146 Onchimira_cavifera Onchimira_cavifera_S148 Onchimira_cavifera_S149 Onchidoris_evincta Onchidoris_macropompa Onchidoris_muricata_ Onchidoris_muricata_S153 Phyllidia_coelestis Phyllidia_elegans Phyllidiella_nigra Phyllidiella_pustulosa_S158 Phyllidiopsis_annae Reticulidia_halgerda Kaloplocamus_sp. 
+	;
+
+END;
+
+
+
+BEGIN TAXA;
+	TITLE 'Taxa154(final)';
+	DIMENSIONS NTAX=154;
+	TAXLABELS
+		Halgerda_batangas Phyllidia_varicosa Jorunna_funebris_ Doriopsis_granulosa Peltodoris_murrea Kaloplocamus_acutus Glossodoris_rufomarginata Aegires_citrinus Actinocyclus_verrucosus Gymnodoris_sp. Cadlinella_ornatissima Berthellina_delicata Pleurobranchus_peronii Hallaxa_sp. Sebadoris_fragilis Chromodoris_colemani Roboastra_gracilis Atagema_intecta Goniobranchus_geometricus Diaphorodoris_mitsuii Halgerda_sp. Phyllidiella_pustulosa Trapania_vitta Cadlinella_subornatissima Aegires_villosus Diversidoris_flava Halgerda_willeyi Reticulidia_fungia 'Dendrodoris tuberculosa (C032)' Hypselodoris_apolegma Doriprismatica_atromarginata Notobryon_wardi Homoiodoris_japonica Thecacera_picta Ceratosoma_sp. Tritonia_sp. Bermudella_sp. Hexabranchus_lacer Phyllidiopsis_shireenae Discodoris_coerulescens Tenellia_sp. Discodoris_boholiensis 'Dendrodoris tuberculosa (C046)' Ringicula_doliaris Bermudella_japonica Halgerda_tessellata Phyllidia_larryi Thorunna_daniellae Martadoris_sp. Verconia_subnivalis Halgerda_guahan Phyllidiopsis_xishaensis Dermatobranchus_semilunus Hydatina_physis_C057 Hydatina_physis_S001 Micromelo_undatus_S003 Micromelo_undatus_S004 Micromelo_undatus_S005 Ringicula_doliaris_S006 Ringiculopsis_foveolata Pleurobranchaea_meckeli Berthellina_citrina Dermatobranchus_semilunus_S014 Armina_loveni Notobryon_wardi_S016 Phestilla_sibogae Trinchesia_caerulea Candiella_plebeia Bathydoris_aioca Prodoris_clavigera_S021 Prodoris_clavigera_S022 Actinocylclus_verrucosus_S023 Hallaxa_iju Hallaxa_indecora Hallaxa_translucens Aegires_albopunctatus Aegires_citrinus_S028 Aegires_flores Aegires_villosus_S030 Cadlinella_ornatissima_S037 Cadlinella_ornatissima_S038 Cadlinella_subornatissima_S039 Aldisa_sanguinea_ Aldisa_sp. Cadlina_jannanicholsae Cadlina_laevis_ Cadlina_modesta Cadlina_pellucida Cadlina_sparsa Diaphorodoris_lirulatocauda Diaphorodoris_luteocincta Diaphorodoris_luteocincta_S054 Diaphorodoris_cf._mitsuii Diaphorodoris_papillata Ceratosoma_trilobatum Chromodoris_alternata Chromodoris_ambigua Chromodoris_quadricolor Diversidoris_aurantionodulosa Doriprismatica_atromarginata_S062 Doriprismatica_atromarginata_S063 Glossodoris_pallida Glossodoris_pallida_S070 Goniobranchus_geometricus_S071 Goniobranchus_geometricus_S072 Hypselodoris_imperialis Hypselodoris_infucata Thorunna_daniellae_S076 Thorunna_furtiva Verconia_verconis Dendrodoris_atromaculata Dendrodoris_krusensternii Dendrodoris_krusenstemii_S087 Doriopsilla_albopunctata Doriopsilla_gemela Doriopsilla_janaina Doriopsilla_miniata Doriopsilla_spaldingi Atagema_notacristata Discodoris_coerulescens_S097 Halgerda_dalanghita Jorunna_tomentosa Peltodoris_nobilis Doris_montereyensis Doris_odhneri Doris_verrucosa Bermudella_angelensis Okenia_amoenula Okenia_nodosa Trapania_reticulata Hexabranchus_aureomarginatus Hexabranchus_lacer_S130 Acanthodoris_atrogriseata Acanthodoris_hudsoni Acanthodoris_nanaimoensis Acanthodoris_pilosa Acanthodoris_planca Acanthodoris_rhodoceras Onchidoris_bilamellata_ Onchidoris_bilamellata_S146 Onchimira_cavifera Onchimira_cavifera_S148 Onchimira_cavifera_S149 Onchidoris_evincta Onchidoris_macropompa Onchidoris_muricata_ Onchidoris_muricata_S153 Phyllidia_coelestis Phyllidia_elegans Phyllidiella_nigra Phyllidiella_pustulosa_S158 Phyllidiopsis_annae Reticulidia_halgerda Kaloplocamus_sp. 
+	;
+
+END;
+
+
+
+BEGIN TAXA;
+	TITLE 'Taxa(row)';
+	DIMENSIONS NTAX=154;
+	TAXLABELS
+		C001 C003 C004 C005 C007 C008 C009 C010 C011 C012 C014 C015 C016 C017 C018 C019 C020 C021 C022 C023 C024 C025 C026 C027 C028 C029 C030 C031 C032 C033 C034 C035 C036 C037 C038 C039 C040 C041 C042 C043 C044 C045 C046 C047 C048 C049 C050 C051 C052 C053 C054 C055 C056 C057 S001 S003 S004 S005 S006 S007 S008 S010 S014 S015 S016 S017 S018 S019 S020 S021 S022 S023 S024 S025 S026 S027 S028 S029 S030 S037 S038 S039 S040 S041 S042 S043 S046 S047 S048 S052 S053 S054 S055 S056 S057 S058 S059 S060 S061 S062 S063 S069 S070 S071 S072 S073 S074 S076 S077 S080 S085 S086 S087 S088 S089 S090 S091 S092 S094 S097 S098 S099 S100 S107 S108 S109 S113 S124 S125 S128 S129 S130 S132 S133 S134 S135 S136 S137 S145 S146 S147 S148 S149 S150 S151 S152 S153 S155 S156 S157 S158 S159 S160 S161 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix2;
+	LINK TAXA = 'Taxa154(number)';
+	DIMENSIONS  NCHAR=2;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8 9 A B C D E";
+	CHARSTATELABELS 
+		1 Spicule_network,
+		2 Shell ; 
+	MATRIX
+	Halgerda_batangas                  22
+	Phyllidia_varicosa                 32
+	Jorunna_funebris_                  22
+	Doriopsis_granulosa                22
+	Peltodoris_murrea                  22
+	Kaloplocamus_acutus                12
+	Glossodoris_rufomarginata          12
+	Aegires_citrinus                   42
+	Actinocyclus_verrucosus            02
+	Gymnodoris_sp.                     12
+	Cadlinella_ornatissima             32
+	Berthellina_delicata               11
+	Pleurobranchus_peronii             11
+	Hallaxa_sp.                        02
+	Sebadoris_fragilis                 22
+	Chromodoris_colemani               12
+	Roboastra_gracilis                 12
+	Atagema_intecta                    22
+	Goniobranchus_geometricus          12
+	Diaphorodoris_mitsuii              32
+	Halgerda_sp.                       22
+	Phyllidiella_pustulosa             32
+	Trapania_vitta                     12
+	Cadlinella_subornatissima          32
+	Aegires_villosus                   42
+	Diversidoris_flava                 12
+	Halgerda_willeyi                   22
+	Reticulidia_fungia                 32
+	'Dendrodoris tuberculosa (C032)'   12
+	Hypselodoris_apolegma              12
+	Doriprismatica_atromarginata       12
+	Notobryon_wardi                    02
+	Homoiodoris_japonica               22
+	Thecacera_picta                    12
+	Ceratosoma_sp.                     12
+	Tritonia_sp.                       02
+	Bermudella_sp.                     32
+	Hexabranchus_lacer                 12
+	Phyllidiopsis_shireenae            32
+	Discodoris_coerulescens            22
+	Tenellia_sp.                       02
+	Discodoris_boholiensis             22
+	'Dendrodoris tuberculosa (C046)'   12
+	Ringicula_doliaris                 00
+	Bermudella_japonica                32
+	Halgerda_tessellata                22
+	Phyllidia_larryi                   32
+	Thorunna_daniellae                 12
+	Martadoris_sp.                     12
+	Verconia_subnivalis                12
+	Halgerda_guahan                    22
+	Phyllidiopsis_xishaensis           32
+	Dermatobranchus_semilunus          02
+	Hydatina_physis_C057               00
+	Hydatina_physis_S001               00
+	Micromelo_undatus_S003             00
+	Micromelo_undatus_S004             00
+	Micromelo_undatus_S005             00
+	Ringicula_doliaris_S006            00
+	Ringiculopsis_foveolata            00
+	Pleurobranchaea_meckeli            02
+	Berthellina_citrina                11
+	Dermatobranchus_semilunus_S014     02
+	Armina_loveni                      02
+	Notobryon_wardi_S016               02
+	Phestilla_sibogae                  02
+	Trinchesia_caerulea                02
+	Candiella_plebeia                  02
+	Bathydoris_aioca                   02
+	Prodoris_clavigera_S021            02
+	Prodoris_clavigera_S022            02
+	Actinocylclus_verrucosus_S023      02
+	Hallaxa_iju                        02
+	Hallaxa_indecora                   02
+	Hallaxa_translucens                02
+	Aegires_albopunctatus              42
+	Aegires_citrinus_S028              42
+	Aegires_flores                     42
+	Aegires_villosus_S030              42
+	Cadlinella_ornatissima_S037        32
+	Cadlinella_ornatissima_S038        32
+	Cadlinella_subornatissima_S039     32
+	Aldisa_sanguinea_                  32
+	Aldisa_sp.                         32
+	Cadlina_jannanicholsae             32
+	Cadlina_laevis_                    32
+	Cadlina_modesta                    32
+	Cadlina_pellucida                  32
+	Cadlina_sparsa                     32
+	Diaphorodoris_lirulatocauda        32
+	Diaphorodoris_luteocincta          32
+	Diaphorodoris_luteocincta_S054     32
+	Diaphorodoris_cf._mitsuii          32
+	Diaphorodoris_papillata            32
+	Ceratosoma_trilobatum              12
+	Chromodoris_alternata              12
+	Chromodoris_ambigua                12
+	Chromodoris_quadricolor            12
+	Diversidoris_aurantionodulosa      12
+	Doriprismatica_atromarginata_S062  12
+	Doriprismatica_atromarginata_S063  12
+	Glossodoris_pallida                12
+	Glossodoris_pallida_S070           12
+	Goniobranchus_geometricus_S071     12
+	Goniobranchus_geometricus_S072     12
+	Hypselodoris_imperialis            12
+	Hypselodoris_infucata              12
+	Thorunna_daniellae_S076            12
+	Thorunna_furtiva                   12
+	Verconia_verconis                  12
+	Dendrodoris_atromaculata           12
+	Dendrodoris_krusensternii          12
+	Dendrodoris_krusenstemii_S087      12
+	Doriopsilla_albopunctata           32
+	Doriopsilla_gemela                 32
+	Doriopsilla_janaina                32
+	Doriopsilla_miniata                32
+	Doriopsilla_spaldingi              32
+	Atagema_notacristata               22
+	Discodoris_coerulescens_S097       22
+	Halgerda_dalanghita                22
+	Jorunna_tomentosa                  22
+	Peltodoris_nobilis                 22
+	Doris_montereyensis                32
+	Doris_odhneri                      32
+	Doris_verrucosa                    32
+	Bermudella_angelensis              32
+	Okenia_amoenula                    32
+	Okenia_nodosa                      32
+	Trapania_reticulata                12
+	Hexabranchus_aureomarginatus       12
+	Hexabranchus_lacer_S130            12
+	Acanthodoris_atrogriseata          42
+	Acanthodoris_hudsoni               42
+	Acanthodoris_nanaimoensis          42
+	Acanthodoris_pilosa                42
+	Acanthodoris_planca                42
+	Acanthodoris_rhodoceras            42
+	Onchidoris_bilamellata_            42
+	Onchidoris_bilamellata_S146        42
+	Onchimira_cavifera                 42
+	Onchimira_cavifera_S148            42
+	Onchimira_cavifera_S149            42
+	Onchidoris_evincta                 42
+	Onchidoris_macropompa              42
+	Onchidoris_muricata_               42
+	Onchidoris_muricata_S153           42
+	Phyllidia_coelestis                32
+	Phyllidia_elegans                  32
+	Phyllidiella_nigra                 32
+	Phyllidiella_pustulosa_S158        32
+	Phyllidiopsis_annae                32
+	Reticulidia_halgerda               32
+	Kaloplocamus_sp.                   12
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix3;
+	LINK TAXA = 'Taxa154(final)';
+	DIMENSIONS  NCHAR=2;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4";
+	CHARSTATELABELS 
+		1 Spicule_network,
+		2 Shell ; 
+	MATRIX
+	Halgerda_batangas                  22
+	Phyllidia_varicosa                 32
+	Jorunna_funebris_                  22
+	Doriopsis_granulosa                32
+	Peltodoris_murrea                  22
+	Kaloplocamus_acutus                12
+	Glossodoris_rufomarginata          12
+	Aegires_citrinus                   42
+	Actinocyclus_verrucosus            02
+	Gymnodoris_sp.                     12
+	Cadlinella_ornatissima             32
+	Berthellina_delicata               11
+	Pleurobranchus_peronii             11
+	Hallaxa_sp.                        02
+	Sebadoris_fragilis                 22
+	Chromodoris_colemani               12
+	Roboastra_gracilis                 12
+	Atagema_intecta                    22
+	Goniobranchus_geometricus          12
+	Diaphorodoris_mitsuii              32
+	Halgerda_sp.                       22
+	Phyllidiella_pustulosa             32
+	Trapania_vitta                     12
+	Cadlinella_subornatissima          32
+	Aegires_villosus                   42
+	Diversidoris_flava                 12
+	Halgerda_willeyi                   22
+	Reticulidia_fungia                 32
+	'Dendrodoris tuberculosa (C032)'   12
+	Hypselodoris_apolegma              12
+	Doriprismatica_atromarginata       12
+	Notobryon_wardi                    02
+	Homoiodoris_japonica               32
+	Thecacera_picta                    12
+	Ceratosoma_sp.                     12
+	Tritonia_sp.                       02
+	Bermudella_sp.                     32
+	Hexabranchus_lacer                 12
+	Phyllidiopsis_shireenae            32
+	Discodoris_coerulescens            22
+	Tenellia_sp.                       02
+	Discodoris_boholiensis             22
+	'Dendrodoris tuberculosa (C046)'   12
+	Ringicula_doliaris                 00
+	Bermudella_japonica                32
+	Halgerda_tessellata                22
+	Phyllidia_larryi                   32
+	Thorunna_daniellae                 12
+	Martadoris_sp.                     12
+	Verconia_subnivalis                12
+	Halgerda_guahan                    22
+	Phyllidiopsis_xishaensis           32
+	Dermatobranchus_semilunus          02
+	Hydatina_physis_C057               00
+	Hydatina_physis_S001               00
+	Micromelo_undatus_S003             00
+	Micromelo_undatus_S004             00
+	Micromelo_undatus_S005             00
+	Ringicula_doliaris_S006            00
+	Ringiculopsis_foveolata            00
+	Pleurobranchaea_meckeli            02
+	Berthellina_citrina                11
+	Dermatobranchus_semilunus_S014     02
+	Armina_loveni                      02
+	Notobryon_wardi_S016               02
+	Phestilla_sibogae                  02
+	Trinchesia_caerulea                02
+	Candiella_plebeia                  02
+	Bathydoris_aioca                   02
+	Prodoris_clavigera_S021            02
+	Prodoris_clavigera_S022            02
+	Actinocylclus_verrucosus_S023      02
+	Hallaxa_iju                        02
+	Hallaxa_indecora                   02
+	Hallaxa_translucens                02
+	Aegires_albopunctatus              42
+	Aegires_citrinus_S028              42
+	Aegires_flores                     42
+	Aegires_villosus_S030              42
+	Cadlinella_ornatissima_S037        32
+	Cadlinella_ornatissima_S038        32
+	Cadlinella_subornatissima_S039     32
+	Aldisa_sanguinea_                  32
+	Aldisa_sp.                         32
+	Cadlina_jannanicholsae             32
+	Cadlina_laevis_                    32
+	Cadlina_modesta                    32
+	Cadlina_pellucida                  32
+	Cadlina_sparsa                     32
+	Diaphorodoris_lirulatocauda        32
+	Diaphorodoris_luteocincta          32
+	Diaphorodoris_luteocincta_S054     32
+	Diaphorodoris_cf._mitsuii          32
+	Diaphorodoris_papillata            32
+	Ceratosoma_trilobatum              12
+	Chromodoris_alternata              12
+	Chromodoris_ambigua                12
+	Chromodoris_quadricolor            12
+	Diversidoris_aurantionodulosa      12
+	Doriprismatica_atromarginata_S062  12
+	Doriprismatica_atromarginata_S063  12
+	Glossodoris_pallida                12
+	Glossodoris_pallida_S070           12
+	Goniobranchus_geometricus_S071     12
+	Goniobranchus_geometricus_S072     12
+	Hypselodoris_imperialis            12
+	Hypselodoris_infucata              12
+	Thorunna_daniellae_S076            12
+	Thorunna_furtiva                   12
+	Verconia_verconis                  12
+	Dendrodoris_atromaculata           12
+	Dendrodoris_krusensternii          12
+	Dendrodoris_krusenstemii_S087      12
+	Doriopsilla_albopunctata           32
+	Doriopsilla_gemela                 32
+	Doriopsilla_janaina                32
+	Doriopsilla_miniata                32
+	Doriopsilla_spaldingi              32
+	Atagema_notacristata               22
+	Discodoris_coerulescens_S097       22
+	Halgerda_dalanghita                22
+	Jorunna_tomentosa                  22
+	Peltodoris_nobilis                 22
+	Doris_montereyensis                32
+	Doris_odhneri                      32
+	Doris_verrucosa                    32
+	Bermudella_angelensis              32
+	Okenia_amoenula                    32
+	Okenia_nodosa                      32
+	Trapania_reticulata                12
+	Hexabranchus_aureomarginatus       12
+	Hexabranchus_lacer_S130            12
+	Acanthodoris_atrogriseata          42
+	Acanthodoris_hudsoni               42
+	Acanthodoris_nanaimoensis          42
+	Acanthodoris_pilosa                42
+	Acanthodoris_planca                42
+	Acanthodoris_rhodoceras            42
+	Onchidoris_bilamellata_            42
+	Onchidoris_bilamellata_S146        42
+	Onchimira_cavifera                 42
+	Onchimira_cavifera_S148            42
+	Onchimira_cavifera_S149            42
+	Onchidoris_evincta                 42
+	Onchidoris_macropompa              42
+	Onchidoris_muricata_               42
+	Onchidoris_muricata_S153           42
+	Phyllidia_coelestis                32
+	Phyllidia_elegans                  32
+	Phyllidiella_nigra                 32
+	Phyllidiella_pustulosa_S158        32
+	Phyllidiopsis_annae                32
+	Reticulidia_halgerda               32
+	Kaloplocamus_sp.                   12
+
+;
+
+END;
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix4;
+	LINK TAXA = 'Taxa(row)';
+	DIMENSIONS  NCHAR=2;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4";
+	CHARSTATELABELS 
+		1 Spicule_network,
+		2 Shell ; 
+	MATRIX
+	C001  22
+	C003  32
+	C004  22
+	C005  22
+	C007  22
+	C008  12
+	C009  12
+	C010  42
+	C011  02
+	C012  12
+	C014  32
+	C015  11
+	C016  11
+	C017  02
+	C018  22
+	C019  12
+	C020  12
+	C021  22
+	C022  12
+	C023  32
+	C024  22
+	C025  32
+	C026  12
+	C027  32
+	C028  42
+	C029  12
+	C030  22
+	C031  32
+	C032  12
+	C033  12
+	C034  12
+	C035  02
+	C036  22
+	C037  12
+	C038  12
+	C039  02
+	C040  32
+	C041  12
+	C042  32
+	C043  22
+	C044  02
+	C045  22
+	C046  12
+	C047  00
+	C048  32
+	C049  22
+	C050  32
+	C051  12
+	C052  12
+	C053  12
+	C054  22
+	C055  32
+	C056  02
+	C057  00
+	S001  00
+	S003  00
+	S004  00
+	S005  00
+	S006  00
+	S007  00
+	S008  02
+	S010  11
+	S014  02
+	S015  02
+	S016  02
+	S017  02
+	S018  02
+	S019  02
+	S020  02
+	S021  02
+	S022  02
+	S023  02
+	S024  02
+	S025  02
+	S026  02
+	S027  42
+	S028  42
+	S029  42
+	S030  42
+	S037  32
+	S038  32
+	S039  32
+	S040  32
+	S041  32
+	S042  32
+	S043  32
+	S046  32
+	S047  32
+	S048  32
+	S052  32
+	S053  32
+	S054  32
+	S055  32
+	S056  32
+	S057  12
+	S058  12
+	S059  12
+	S060  12
+	S061  12
+	S062  12
+	S063  12
+	S069  12
+	S070  12
+	S071  12
+	S072  12
+	S073  12
+	S074  12
+	S076  12
+	S077  12
+	S080  12
+	S085  12
+	S086  12
+	S087  12
+	S088  32
+	S089  32
+	S090  32
+	S091  32
+	S092  32
+	S094  22
+	S097  22
+	S098  22
+	S099  22
+	S100  22
+	S107  32
+	S108  32
+	S109  32
+	S113  32
+	S124  32
+	S125  32
+	S128  12
+	S129  12
+	S130  12
+	S132  42
+	S133  42
+	S134  42
+	S135  42
+	S136  42
+	S137  42
+	S145  42
+	S146  42
+	S147  42
+	S148  42
+	S149  42
+	S150  42
+	S151  42
+	S152  42
+	S153  42
+	S155  32
+	S156  32
+	S157  32
+	S158  32
+	S159  32
+	S160  32
+	S161  12
+
+;
+
+END;
+BEGIN SETS;
+	TAXPARTITION * UNTITLED  (TAXA = 'Taxa154(number)') =  Doridina :  1- 11 14- 31 33- 35 37- 40 42- 43 45- 52 68- 154, Pleurobranchida :  12- 13 61- 62, Cladobranchia :  32 36 41 53 63- 67, Ringiculimorpha :  44 59- 60, Acteonimorpha :  54- 58;
+	TAXPARTITION * UNTITLED  (TAXA = 'Taxa154(final)') =  Doridina :  1- 11 14- 31 33- 35 37- 40 42- 43 45- 52 68- 154, Pleurobranchida :  12- 13 61- 62, Cladobranchia :  32 36 41 53 63- 67, Ringiculimorpha :  44 59- 60, Acteonimorpha :  54- 58;
+	TAXPARTITION Partition  (TAXA = 'Taxa154(final)') =  Doridina :  1- 11 14- 31 33- 35 37- 40 42- 43 45- 52 68- 154, Pleurobranchida :  12- 13 61- 62, Cladobranchia :  32 36 41 53 63- 67, Ringiculimorpha :  44 59- 60, Acteonimorpha :  54- 58;
+	TAXPARTITION Partition2  (TAXA = 'Taxa154(final)') =  Doridina :  1- 11 14- 31 33- 35 37- 40 42- 43 45- 52 68- 154, Pleurobranchida :  12- 13 61- 62, Cladobranchia :  32 36 41 53 63- 67, Ringiculimorpha :  44 59- 60, Acteonimorpha :  54- 58;
+	TAXPARTITION * UNTITLED  (TAXA = 'Taxa(row)') =  Doridina :  1- 11 14- 31 33- 35 37- 40 42- 43 45- 52 68- 154, Pleurobranchida :  12- 13 61- 62, Cladobranchia :  32 36 41 53 63- 67, Ringiculimorpha :  44 59- 60, Acteonimorpha :  54- 58;
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  (CHARACTERS = Character_Matrix2)  =  unord:  1- 2;
+TYPESET * UNTITLED  (CHARACTERS = Character_Matrix3)  =  unord:  1- 2;
+TYPESET * UNTITLED  (CHARACTERS = Character_Matrix4)  =  unord:  1- 2;
+
+END;
+
+BEGIN NOTES;
+
+	CHARACTERS = Character_Matrix2 TAXA = 'Taxa154(number)';
+	SU  C = 1 N = selected B = TRUE;
+	SU  C = 2 N = selected B = TRUE;
+
+	CHARACTERS = Character_Matrix3 TAXA = 'Taxa154(final)';
+
+	CHARACTERS = Character_Matrix4 TAXA = 'Taxa(row)';
+
+END;
+
+BEGIN LABELS;
+	TAXAGROUPLABEL Doridina COLOR = (RGB 1.0 0.47843137 0.13333333) ;
+	TAXAGROUPLABEL Pleurobranchida COLOR = (RGB 1.0 0.36862745 0.8745098) ;
+	TAXAGROUPLABEL Cladobranchia COLOR = (RGB 1.0 0.16862745 0.16862745) ;
+	TAXAGROUPLABEL Ringiculimorpha COLOR = (RGB 0.23529412 1.0 0.23529412) ;
+	TAXAGROUPLABEL Acteonimorpha COLOR = (RGB 0.36862745 0.36862745 1.0) ;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED  (CHARACTERS = Character_Matrix2)  =  'Mk1 (est.)':  1- 2;
+ProbModelSet * UNTITLED  (CHARACTERS = Character_Matrix3)  =  'Mk1 (est.)':  1- 2;
+ProbModelSet * UNTITLED  (CHARACTERS = Character_Matrix4)  =  'Mk1 (est.)':  1- 2;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1726756080834;
+		linkFile 'pruned_tree_154.tre.nex';
+		linkFile 'pruned_tree_154.tre.nex';
+		linkFile 'pruned_tree_row_154.tre';
+		linkFile 'pruned_tree_154_IQtree.tre.nex';
+		linkFile 'pruned_tree_154_MrBayes.tre.nex';
+		linkFile 'pruned_tree_154_IQtree(ForTaxaRow).tre';
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 1827929864038276237;
+			setID 1 2768664435783089691;
+			setID 2 5212881110525500819;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 3075381450977678029;
+			tell It;
+				setSelected  1 -  2;
+				attachments ;
+			endTell;
+			mqVersion 381;
+			checksumv 0 3 1709505969 null  getNumChars 2 numChars 2 getNumTaxa 154 numTaxa 154   short true   bits 31   states 31   sumSquaresStatesOnly 10928.0 sumSquares 10928.0 longCompressibleToShort false usingShortMatrix true   NumFiles 7 NumMatrices 3;
+			mqVersion;
+			setID 1 2493075549191100691;
+			mqVersion 381;
+			checksumv 1 3 336258336 null  getNumChars 2 numChars 2 getNumTaxa 154 numTaxa 154   short true   bits 31   states 31   sumSquaresStatesOnly 11024.0 sumSquares 11024.0 longCompressibleToShort false usingShortMatrix true   NumFiles 7 NumMatrices 3;
+			mqVersion;
+			setID 2 8327459922748406146;
+			mqVersion 381;
+			checksumv 2 3 1709505969 null  getNumChars 2 numChars 2 getNumTaxa 154 numTaxa 154   short true   bits 31   states 31   sumSquaresStatesOnly 10928.0 sumSquares 10928.0 longCompressibleToShort false usingShortMatrix true   NumFiles 7 NumMatrices 3;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 269;
+			setPopoutState 702;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1920 963;
+			setLocation 1591 -192;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #1827929864038276237 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #1827929864038276237;
+				getWindow;
+				tell It;
+					useTargetValue off;
+					setTargetValue ;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+			showTaxa #5212881110525500819 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #5212881110525500819;
+				getWindow;
+				tell It;
+					useTargetValue off;
+					setTargetValue ;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+			showTaxa #2768664435783089691 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #2768664435783089691;
+				getWindow;
+				tell It;
+					useTargetValue off;
+					setTargetValue ;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #1827929864038276237  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTaxa #1827929864038276237;
+					setTreeBlockInt 1;
+					setTreeBlockID 0191d60e236015;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 2310.1725873147652.4931456408077509441;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.BallsNSticks.BallsNSticks;
+					tell It;
+						setSpotDiameter 22;
+						setEdgeWidth 5;
+						orientRight;
+						useDiagonal;
+						toggleBallsInternal on;
+						toggleCosmic off;
+						getEmployee #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							setFixedTaxonDistance 0;
+						endTell;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					setSelectedTaxonHighlightMode 1;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						setTaxonNameStyler  #mesquite.trees.NoColorForTaxon.NoColorForTaxon;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '(57:0.0011107981,58:0.0002352697,(56:0.0239902595,((54:0.0219771392,55:0.0107278171):0.0281069751,((60:0.1676416579,(44:0.0051268162,59:0.0027327849):0.189864888):0.5690358496,((61:0.200223011,(13:0.0927641131,(12:0.0379142238,62:0.060185451):0.0361824145):0.0244441434):0.3580339694,(((41:0.0596879249,(66:0.0748056203,67:0.07758526):0.0732831963):0.0553625607,((68:0.1645819539,(32:0.0031851493,65:0.0000024177):0.15257885):0.0097903277,(36:0.1769033987,(64:0.0727942401,(53:0.0616771024,63:0.1434525699):0.0282390383):0.0574162334):0.0145277089):0.054584942):1.200803824,((69:0.0541315566,(70:0.001295371,71:0.0025115595):0.0524458238):0.210319457,((73:0.060365037,((9:0.0015356645,72:0.0001707957):0.0813255371,(75:0.0410075136,(14:0.0396637286,74:0.0078786023):0.0106276569):0.0441078595):0.0044794125):0.0410574628,(((90:0.0431710386,(20:0.0271202131,93:0.0318856862):0.0258706265):0.0055105069,(94:0.0207107849,(91:0.0121366645,92:0.0160759292):0.0271501929):0.0226601413):0.0522945807,(((((23:0.091612012,130:0.0817699847):0.0143555083,((127:0.0609818471,128:0.0708214312):0.0362367719,(129:0.0529458756,(37:0.0644170827,45:0.0603614815):0.0361937691):0.0037101149):0.0361870393):0.0357008976,((137:0.0229170001,((133:0.0000010004,136:0.0018664229):0.018528526,(134:0.016227667,(135:0.0136749735,138:0.0161868342):0.0036266621):0.0022946293):0.0091054625):0.0383472937,((143:0.0000021043,(141:0.000002605,142:0.000424554):0.001090112):0.077378368,(144:0.0312293106,((139:0.0000026851,140:0.0000022258):0.0677774212,(145:0.025201801,(146:0.0042343936,147:0.0033899277):0.0251650382):0.0064699476):0.0173268494):0.0462441559):0.0058837471):0.044511562):0.0089686323,(((124:0.0232558141,125:0.0168814687):0.039063119,(33:0.0973274704,(4:0.0833546162,126:0.0968316956):0.0240110579):0.0218367788):0.032287971,((77:0.0736231438,(76:0.1113293231,(8:0.2976038685,(78:0.0382268014,(25:0.0147249009,79:0.0000020849):0.0213239):0.0516587279):0.0232798978):0.0117638878):0.0879374017,((18:0.0388858032,119:0.0495558448):0.1141378225,((3:0.0798453711,122:0.0553480579):0.0055913028,(42:0.0716919307,(123:0.0594209246,((120:0.0303353834,(15:0.0280195521,(5:0.0010161741,40:0.0006536304):0.0390699365):0.010048951):0.0151876121,(121:0.0295376792,((1:0.0287677796,46:0.024682792):0.0081993261,(51:0.0121933319,(21:0.0078888356,27:0.0042575519):0.0131891594):0.0034579526):0.0100395241):0.0493279313):0.0102688969):0.0245270926):0.0056254251):0.0251620205):0.0180089136):0.0068385086):0.014695432):0.0022000747,((((83:0.0517124405,84:0.0385272151):0.0357731842,(88:0.0413513654,((85:0.0232690777,86:0.0329900805):0.0063866121,(87:0.0170119673,89:0.0249041775):0.0662254293):0.0003304845):0.039547501):0.0209852638,((111:0.0458154399,((29:0.0013648122,43:0.0000020084):0.0946737421,(112:0.0000023628,113:0.0258635453):0.0347398286):0.0210925913):0.0567560417,((118:0.0898616356,(115:0.0805466186,(117:0.0000029254,(114:0.0593210922,116:0.0120548115):0.0094331291):0.0541177629):0.0087714502):0.0294291201,((47:0.0717758896,(150:0.0076533719,151:0.01238866):0.0246097227):0.0083307866,((22:0.1030904447,(39:0.0299117128,(52:0.0296524403,152:0.0207393044):0.0072689439):0.0207305161):0.0082555573,((28:0.0203729725,153:0.0240402897):0.0249032414,(148:0.0331418506,(2:0.0145430936,149:0.0213393587):0.0216580445):0.0215089515):0.0165026937):0.0126452071):0.0120808783):0.0079445532):0.0118649977):0.0070758241,((((6:0.0200197803,154:0.0135779525):0.0700782167,((10:0.076563767,34:0.0877993038):0.039222614,(17:0.1548730753,49:0.0899956816):0.0527177205):0.006754516):0.0134434636,((131:0.0113461606,(38:0.0021376783,132:0.0000022717):0.0195995129):0.057947264,((24:0.0020007914,82:0.0000010004):0.0276355613,(81:0.0263360362,(11:0.0003799351,80:0.0027717301):0.0158755433):0.0097337753):0.0502999455):0.0112888461):0.006287284,((((16:0.0154683413,98:0.0264567279):0.0747030632,(50:0.0386574209,110:0.0365033558):0.0535352702):0.0033000305,((101:0.0028309706,(31:0.0011280887,100:0.0005896328):0.0043230532):0.0564797686,((26:0.055671321,99:0.0489954523):0.024878527,(102:0.024249618,(7:0.0688745488,103:0.0228430277):0.0074196528):0.0326208152):0.0030582912):0.007761676):0.0077009862,((96:0.0914519387,97:0.0271331816):0.0361429317,((19:0.0038282471,(104:0.0008655624,105:0.0013420744):0.0023763267):0.0611144415,((35:0.0217996385,95:0.0180463201):0.0476791081,((30:0.0650390718,(106:0.0953813045,107:0.0211581089):0.0071637112):0.0144375079,(109:0.0295006952,(48:0.000002028,108:0.0038890846):0.0686674814):0.0375642457):0.0250536038):0.0036222223):0.0033459866):0.0068637105):0.0247611779):0.004599804):0.0064012556):0.0074712197):0.017068225):0.0622635722):0.0501490634):0.0868858007):0.0728668709):0.2827661955):0.0242526257):0.0072843425);';
+					setDrawingSizeMode 2 1561 2156  -1 1150;
+					toggleLegendFloat on;
+					toggleTextOnTree off;
+					togglePrintName off;
+					showWindow;
+					newAssistant  #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory;
+				tell It;
+					suspend ;
+					setDisplayMode  #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree;
+					tell It;
+						toggleLabels off;
+						togglePredictions off;
+						toggleGray off;
+					endTell;
+					setHistorySource  #mesquite.ancstates.RecAncestralStates.RecAncestralStates;
+					tell It;
+						getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters;
+							tell It;
+								setTaxa #1827929864038276237;
+								setDataSet #3075381450977678029;
+							endTell;
+						endTell;
+						setMethod  #mesquite.stochchar.MargProbAncStates.MargProbAncStates;
+						tell It;
+							setModelSource  #mesquite.stochchar.StoredProbModel.StoredProbModel;
+							tell It;
+								setModel 1   'Mk1 (est.)';
+							endTell;
+							getEmployee #mesquite.stochchar.zMargLikeCateg.zMargLikeCateg;
+							tell It;
+								setReportMode Proportional_Likelihoods;
+								setRootMode Use_Root_State_Frequencies_as_Prior;
+								setDecision 2.0;
+								setUnderflowCheckFreq 2;
+							endTell;
+						endTell;
+						toggleShowSelectedOnly off;
+					endTell;
+					setCharacter 1;
+					setMapping 1;
+					toggleShowLegend on;
+					setColorMode 0;
+					toggleWeights on;
+					setInitialOffsetX 259;
+					setInitialOffsetY 142;
+					setLegendWidth 142;
+					setLegendHeight 212;
+					resume ;
+					modifyColors  4 0  255 5 5 4 1  255 204 71 4 2  0 255 102 4 3  25 5 255 4 4  250 65 198;
+				endTell;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					setDigits 4;
+					setThreshold ?;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			makeTreeWindow #2768664435783089691  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTaxa #2768664435783089691;
+					setTreeBlockInt 0;
+					setTreeBlockID 019205007bb59;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1505.1726660829810.4960856738352866353;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.interchange;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.BallsNSticks.BallsNSticks;
+					tell It;
+						setSpotDiameter 50;
+						setEdgeWidth 5;
+						orientRight;
+						useDiagonal;
+						toggleBallsInternal on;
+						toggleCosmic off;
+						getEmployee #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							setFixedTaxonDistance 0;
+						endTell;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					setSelectedTaxonHighlightMode 1;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setFont Times_New_Roman;
+						setFontSize 12;
+						setColor Black;
+						setTaxonNameStyler  #mesquite.trees.NoColorForTaxon.NoColorForTaxon;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '(((54:0.0219465312,55:0.0107238288):0.0265542894,(56:0.0239251724,(57:0.0011013315,58:0.0002411038):0.0072343359):0.025675736):0.1432819637,((60:0.1672907639,(44:0.0051100725,59:0.0027328315):0.1902578482):0.5640727169,((61:0.2000736152,(13:0.093054264,(12:0.0377052954,62:0.0602055736):0.035853025):0.024869132):0.3569571725,(((41:0.0592039522,(66:0.0747792132,67:0.0777959874):0.073687588):0.054609382,((68:0.1643777384,(32:0.0031766064,65:0.0000020784):0.1522588668):0.0097785799,(36:0.1765280851,(64:0.0727945189,(53:0.061631207,63:0.1433465361):0.0280667947):0.0575897662):0.0146271575):0.0558124036):1.195951357,((69:0.0532862766,(70:0.0012729804,71:0.0025218334):0.0532402819):0.2099824603,(((111:0.0456348573,((29:0.0013621003,43:0.0000010019):0.0944953547,(112:0.0000021937,113:0.0259090706):0.0347953086):0.0212542392):0.056619432,((118:0.0898308485,(115:0.0810122454,(117:0.0000026121,(114:0.0592397134,116:0.0120493805):0.0094711527):0.0539276651):0.0087641707):0.0295905088,((47:0.0719545336,(150:0.0076843989,151:0.0123881459):0.0245002742):0.0083447412,((22:0.1030957808,(39:0.0297799357,(52:0.0296724487,152:0.0207556971):0.0073032557):0.0207885294):0.0083443787,((28:0.0203425701,153:0.0240221417):0.0249264861,(148:0.0331886633,(2:0.0145299268,149:0.0213158276):0.0215940833):0.0215235434):0.0165073858):0.0128055639):0.0114564165):0.0071038148):0.0082962582,(((83:0.0516663172,84:0.0385400147):0.0360966669,((87:0.017039913,89:0.0248324288):0.0657870219,(88:0.0416207621,(85:0.0232590004,86:0.0327884859):0.0062911084):0.0008273215):0.0387410584):0.021395195,(((((73:0.0607151428,(9:0.0014025858,72:0.0003090625):0.0814865905):0.0037404003,(75:0.0406699111,(14:0.0391898737,74:0.0080762285):0.0109978297):0.0436225031):0.0564184007,((90:0.0434183416,(20:0.0269938425,93:0.0319158027):0.0257534444):0.0055382204,(94:0.0206914109,(91:0.0120677544,92:0.0160556873):0.0270105205):0.0224680927):0.0504101837):0.009637227,((((124:0.0231843313,125:0.0168702414):0.0390893005,(33:0.0972267767,(4:0.082928356,126:0.096863972):0.0239634725):0.021794802):0.0318153851,((77:0.0734463664,(76:0.111498545,(8:0.2975003919,(78:0.0383357862,(25:0.0146330403,79:0.0000020119):0.0212844449):0.0515101559):0.0233716804):0.0118291751):0.0878631479,((18:0.0385806337,119:0.0498316692):0.1142172144,((3:0.0798072898,122:0.0552934502):0.0054127449,(42:0.0710631859,(123:0.0597705885,((120:0.0304923206,(15:0.0281118724,(5:0.0009986477,40:0.0006671787):0.0390109034):0.0096329267):0.0156646817,(121:0.0283195283,((1:0.0286355833,46:0.024687101):0.0079916915,(51:0.0121486433,(21:0.0078934558,27:0.0042371423):0.0132147245):0.0035946916):0.0105967192):0.0428422574):0.0102853087):0.0241679296):0.006651526):0.0246531518):0.0179650007):0.0066370183):0.0148999188,(((23:0.0916388615,130:0.0816427307):0.0143287437,((127:0.0609852564,128:0.0706973449):0.0362218136,(129:0.0529430534,(37:0.0642477972,45:0.0602706458):0.0361592138):0.00368576):0.0362358004):0.0359698175,((137:0.022886291,((133:0.0000028544,136:0.0018664854):0.0185311084,(134:0.0162097816,(135:0.0136661715,138:0.0161850393):0.0036157475):0.0022894273):0.0091059802):0.0384964521,((143:0.0000010019,(141:0.0000010019,142:0.0004241266):0.0010891908):0.0773491061,(144:0.0312251703,((139:0.000002924,140:0.0000025755):0.0677260466,(145:0.0251841026,(146:0.0042315215,147:0.0033867444):0.0251671602):0.0064708302):0.0173127546):0.0462969967):0.0056308379):0.0441773504):0.0088150191):0.00259432):0.0064177761,((((131:0.0113182194,(38:0.0021326966,132:0.0000028968):0.0196487976):0.0580497357,((24:0.0020012677,82:0.0000027012):0.0275032102,(81:0.0263212233,(11:0.0003790652,80:0.0027694577):0.0158705324):0.0098324117):0.0502908154):0.0111549583,((6:0.0199349422,154:0.0136136691):0.0698269064,((10:0.0878651604,34:0.0757110838):0.0394701027,(17:0.1541034136,49:0.0902911194):0.0521934315):0.0065714841):0.0133930569):0.0067013874,((((16:0.0154598854,98:0.0264175294):0.0745411562,(50:0.0386490272,110:0.0364519376):0.0534674843):0.0033241731,((101:0.002823039,(31:0.0011254928,100:0.0005893574):0.0043236577):0.0564511447,((26:0.0554541177,99:0.0490132616):0.024855608,(102:0.0242030102,(7:0.0688595343,103:0.0228012429):0.0074435704):0.0326183776):0.0030561097):0.0077639603):0.0077466107,((96:0.0912850905,97:0.0271772056):0.036076907,((19:0.0038234869,(104:0.000863887,105:0.001340864):0.0023702337):0.0610998216,((35:0.0217864023,95:0.018010303):0.0476586006,((30:0.0649952131,(106:0.095355795,107:0.0211293746):0.0071327645):0.0144429529,(109:0.0294678037,(48:0.0000021417,108:0.0038831049):0.0685606047):0.0375354441):0.0249813722):0.00362947):0.0033389789):0.0069028616):0.0248422965):0.0042444594):0.0064418765):0.0058325494):0.0719293517):0.0510822761):0.0868034223):0.0721108508):0.1432819637);';
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName off;
+					showWindow;
+					newAssistant  #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory;
+				tell It;
+					suspend ;
+					setDisplayMode  #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree;
+					tell It;
+						toggleLabels off;
+						togglePredictions off;
+						toggleGray off;
+					endTell;
+					setHistorySource  #mesquite.ancstates.RecAncestralStates.RecAncestralStates;
+					tell It;
+						getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters;
+							tell It;
+								setTaxa #2768664435783089691;
+								setDataSet #2493075549191100691;
+							endTell;
+						endTell;
+						setMethod  #mesquite.stochchar.MargProbAncStates.MargProbAncStates;
+						tell It;
+							setModelSource  #mesquite.stochchar.StoredProbModel.StoredProbModel;
+							tell It;
+								setModel 1   'Mk1 (est.)';
+							endTell;
+							getEmployee #mesquite.stochchar.zMargLikeCateg.zMargLikeCateg;
+							tell It;
+								setReportMode Proportional_Likelihoods;
+								setRootMode Use_Root_State_Frequencies_as_Prior;
+								setDecision 2.0;
+								setUnderflowCheckFreq 2;
+							endTell;
+						endTell;
+						toggleShowSelectedOnly off;
+					endTell;
+					setCharacter 2;
+					setMapping 1;
+					toggleShowLegend on;
+					setColorMode 0;
+					toggleWeights on;
+					setInitialOffsetX 20;
+					setInitialOffsetY 4;
+					setLegendWidth 142;
+					setLegendHeight 180;
+					resume ;
+					modifyColors  4 0  255 10 10 4 1  255 155 5 4 2  0 255 102 4 3  30 10 255 4 4  250 10 240;
+				endTell;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					setDigits 4;
+					setThreshold ?;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			makeTreeWindow #5212881110525500819  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTaxa #5212881110525500819;
+					setTreeBlockInt 0;
+					setTreeBlockID 01920508c5e513;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1613.1726661719510.63043996140610720;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.BallsNSticks.BallsNSticks;
+					tell It;
+						setSpotDiameter 22;
+						setEdgeWidth 2;
+						orientDown;
+						useDiagonal;
+						toggleBallsInternal on;
+						toggleCosmic off;
+						getEmployee #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							setFixedTaxonDistance 0;
+						endTell;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					setSelectedTaxonHighlightMode 1;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						setTaxonNameStyler  #mesquite.trees.NoColorForTaxon.NoColorForTaxon;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName off;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					setDigits 4;
+					setThreshold ?;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			makeTreeWindow #2768664435783089691  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTaxa #2768664435783089691;
+					setTreeBlockInt 4;
+					setTreeBlockID 0192050372a211;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1447.1726662546922.1880706831347096762;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.reroot;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.BallsNSticks.BallsNSticks;
+					tell It;
+						setSpotDiameter 22;
+						setEdgeWidth 2;
+						orientDown;
+						useDiagonal;
+						toggleBallsInternal on;
+						toggleCosmic off;
+						getEmployee #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							setFixedTaxonDistance 0;
+						endTell;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					setSelectedTaxonHighlightMode 1;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						setTaxonNameStyler  #mesquite.trees.NoColorForTaxon.NoColorForTaxon;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '((55:0.01972207,(56:0.03754559,(57:0.002866744,58:0.001075907):0.01263946):0.05955987):0.021053285,(54:0.008364744,((60:0.2184238,(44:0.008211321,59:0.007226355):0.2429633):0.6293723,((61:0.2550224,(13:0.12672749,(12:0.06569898,62:0.08059212):0.04182401):0.02865253):0.40616,((68:0.1881897,((32:0.006319023,65:0.002690275):0.23077347,(41:0.09117488,(66:0.1138183,67:0.106466):0.08884169):0.09154399,(36:0.2136078,(64:0.09333631,(53:0.1013193,63:0.167185):0.03646718):0.0810047):0.02685639):0.08137089):1.212526,((69:0.06127927,(70:0.002415244,71:0.004477202):0.1030392):0.209077,((((83:0.07423922,84:0.05353644):0.04445652,(88:0.05904315,(85:0.0383925,86:0.05297706):0.00863708,(87:0.03153962,89:0.04478835):0.09533017):0.05168418):0.02721746,((111:0.06847139,((29:0.002696066,43:0.000937123):0.1407915,(112:0.002685618,113:0.04305908):0.04636407):0.02700448):0.07114251,((118:0.1240247,(115:0.1149818,(114:0.09209101,116:0.01747216,117:0.005531035):0.07465686):0.01302215):0.03916796,((47:0.1074421,(150:0.01186252,151:0.02055598):0.03898122):0.0156725,(22:0.1529554,((39:0.0462852,(52:0.05213186,152:0.03216395):0.01125679):0.03407742,((28:0.03761359,153:0.03478332):0.03279349,(148:0.04943962,(2:0.02629545,149:0.03710814):0.03340717):0.02929434):0.02144376):0.01113202):0.01191476):0.01732391):0.008064099):0.01644482):0.007020873,(((((6:0.03532236,154:0.02311503):0.09797831,((10:0.11800842,34:0.1135486):0.0444278,(17:0.21059661,49:0.1290881):0.0725069):0.00941502):0.01774124,((131:0.01940989,(38:0.003941231,132:0.0008957491):0.02958791):0.08422643,((24:0.006778861,82:0.0009447023):0.04215887,(81:0.04296076,(11:0.001394763,80:0.005024926):0.02817237):0.01322699):0.06627873):0.01269537):0.009485024,((50:0.05684418,110:0.06385701):0.06952541,(7:0.09833819,(102:0.04179323,103:0.04372988):0.01197258):0.05021131,((101:0.005641925,(31:0.002524631,100:0.001605061):0.008701705):0.07694969,((16:0.03467828,98:0.03829645):0.08502306,(26:0.08772614,99:0.07066686):0.02398188):0.01609999):0.01030914,((19:0.006587322,(104:0.002142262,105:0.003189597):0.005284955):0.09064313,((96:0.120339,97:0.04266713):0.04505068,((35:0.03971066,95:0.02965795):0.07045154,((30:0.09276309,(106:0.1320936,107:0.03940582):0.009261388):0.02008779,(109:0.04893172,(48:0.001738338,108:0.00657035):0.1034543):0.0482692):0.03017119):0.00682839):0.006788779):0.009431593):0.03327945):0.006087095,((((73:0.1021387,(9:0.002302425,72:0.001784314):0.1097473):0.00820334,(75:0.05834279,(14:0.0621841,74:0.01190684):0.01501094):0.05521471):0.06358868,((20:0.05175226,93:0.04201152):0.03522882,(90:0.06788375,(94:0.03737976,(91:0.02067427,92:0.02786475):0.03863301):0.02766424):0.00892662):0.06849768):0.01226817,((((23:0.1318216,130:0.1112372):0.02124772,(129:0.08174893,(37:0.099379,45:0.08888766):0.05735659,(127:0.09632651,128:0.10087557):0.04497433):0.04698875):0.04444268,((144:0.05058665,((139:0.0007067102,140:0.001274076):0.09488378,(145:0.03877513,(146:0.007400679,147:0.005958265):0.03823097):0.01001069):0.02367582):0.06556146,((143:0.0004722093,(141:0.0003680656,142:0.001112202):0.002261799):0.1062543,(137:0.03515564,(134:0.02382894,(133:0.0009879603,136:0.00325286):0.02995913,(135:0.02221294,138:0.02471434):0.006279079):0.01429834):0.05483045):0.01240135):0.06444531):0.01028697,((77:0.105402192,(76:0.1469112,(8:0.4307223,(78:0.04621925,(25:0.03752402,79:0.001007093):0.03154576):0.06224358):0.02910903):0.01429663):0.1047661,(((124:0.03758159,125:0.0250372):0.05277632,(4:0.1267104,(33:0.1285651,126:0.149828):0.0347216):0.03821326):0.03745719,((18:0.06677553,119:0.07211034):0.1315108,(122:0.08794936,(3:0.1198774,42:0.1079614):0.02114817,(123:0.08002256,((120:0.04888207,(15:0.04410318,(5:0.002038902,40:0.002119728):0.06772):0.02062471):0.02441345,(121:0.04935117,((1:0.04947813,46:0.04226892):0.01167247,(51:0.02218127,(21:0.0142021,27:0.008868809):0.02309641):0.008314009):0.01401171):0.05279724):0.01541924):0.03067721):0.03367792):0.02419395):0.009740439):0.01283701):0.005446687):0.00686652):0.008412096):0.06283855):0.05139331):0.1004805):0.0828042):0.2955217):0.021053285);';
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName off;
+					showWindow;
+					newAssistant  #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory;
+				tell It;
+					suspend ;
+					setDisplayMode  #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree;
+					tell It;
+						toggleLabels off;
+						togglePredictions off;
+						toggleGray off;
+					endTell;
+					setHistorySource  #mesquite.ancstates.RecAncestralStates.RecAncestralStates;
+					tell It;
+						getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters;
+							tell It;
+								setTaxa #2768664435783089691;
+								setDataSet #2493075549191100691;
+							endTell;
+						endTell;
+						setMethod  #mesquite.stochchar.MargProbAncStates.MargProbAncStates;
+						tell It;
+							setModelSource  #mesquite.stochchar.StoredProbModel.StoredProbModel;
+							tell It;
+								setModel 1   'Mk1 (est.)';
+							endTell;
+							getEmployee #mesquite.stochchar.zMargLikeCateg.zMargLikeCateg;
+							tell It;
+								setReportMode Proportional_Likelihoods;
+								setRootMode Use_Root_State_Frequencies_as_Prior;
+								setDecision 2.0;
+								setUnderflowCheckFreq 2;
+							endTell;
+						endTell;
+						toggleShowSelectedOnly off;
+					endTell;
+					setCharacter 1;
+					setMapping 1;
+					toggleShowLegend on;
+					setColorMode 0;
+					toggleWeights on;
+					setInitialOffsetX 164;
+					setInitialOffsetY 20;
+					setLegendWidth 142;
+					setLegendHeight 212;
+					resume ;
+					modifyColors  4 0  255 5 5 4 1  255 155 5 4 3  25 5 255 4 4  255 5 215;
+				endTell;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					setDigits 4;
+					setThreshold ?;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			makeTreeWindow #2768664435783089691  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTaxa #2768664435783089691;
+					setTreeBlockInt 3;
+					setTreeBlockID 0192051b4c5e13;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1533.1726663316659.6620367177484991613;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.interchange;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.BallsNSticks.BallsNSticks;
+					tell It;
+						setSpotDiameter 50;
+						setEdgeWidth 5;
+						orientRight;
+						useDiagonal;
+						toggleBallsInternal on;
+						toggleCosmic off;
+						getEmployee #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							setFixedTaxonDistance 0;
+						endTell;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					setSelectedTaxonHighlightMode 1;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setFont Times_New_Roman;
+						setFontSize 12;
+						setColor Black;
+						setTaxonNameStyler  #mesquite.trees.NoColorForTaxon.NoColorForTaxon;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '(((54:0.0219465312,55:0.0107238288):0.0265542894,(56:0.0239251724,(57:0.0011013315,58:0.0002411038)''84.5/100'':0.0072343359)''74.3/100'':0.025675736)''90.9/95'':0.1432819637,((60:0.1672907639,(44:0.0051100725,59:0.0027328315)''100/100'':0.1902578482)''100/100'':0.5640727169,((61:0.2000736152,(13:0.093054264,(12:0.0377052954,62:0.0602055736)''96.7/100'':0.035853025)''56.8/95'':0.024869132)''100/100'':0.3569571725,(((41:0.0592039522,(66:0.0747792132,67:0.0777959874)''99.8/100'':0.073687588)''95.8/100'':0.054609382,((68:0.1643777384,(32:0.0031766064,65:0.0000020784)''100/100'':0.1522588668)''27.4/57'':0.0097785799,(36:0.1765280851,(64:0.0727945189,(53:0.061631207,63:0.1433465361)''84.5/96'':0.0280667947)''98/100'':0.0575897662)''58.8/88'':0.0146271575)''92.2/70'':0.0558124036)''100/100'':1.195951357,((69:0.0532862766,(70:0.0012729804,71:0.0025218334)''98.1/100'':0.0532402819)''100/100'':0.2099824603,(((111:0.0456348573,((29:0.0013621003,43:0.0000010019)''100/100'':0.0944953547,(112:0.0000021937,113:0.0259090706)''100/100'':0.0347953086)''92.5/100'':0.0212542392)''100/100'':0.056619432,((118:0.0898308485,(115:0.0810122454,(117:0.0000026121,(114:0.0592397134,116:0.0120493805)''68/99'':0.0094711527)''100/100'':0.0539276651)''68/98'':0.0087641707)''95.8/100'':0.0295905088,((47:0.0719545336,(150:0.0076843989,151:0.0123881459)''96.6/100'':0.0245002742)''13.3/60'':0.0083447412,((22:0.1030957808,(39:0.0297799357,(52:0.0296724487,152:0.0207556971)''87.1/100'':0.0073032557)''95.9/100'':0.0207885294)''12.8/62'':0.0083443787,((28:0.0203425701,153:0.0240221417)''99.9/100'':0.0249264861,(148:0.0331886633,(2:0.0145299268,149:0.0213158276)''99.4/100'':0.0215940833)''99.8/100'':0.0215235434)''98.5/100'':0.0165073858)''87.9/79'':0.0128055639)''94.8/100'':0.0114564165)''78.9/60'':0.0071038148)''84.8/86'':0.0082962582,(((83:0.0516663172,84:0.0385400147)''100/100'':0.0360966669,((87:0.017039913,89:0.0248324288)''99.8/100'':0.0657870219,(88:0.0416207621,(85:0.0232590004,86:0.0327884859)''55.3/89'':0.0062911084)''0/33'':0.0008273215)''100/100'':0.0387410584)''99.6/100'':0.021395195,(((((73:0.0607151428,(9:0.0014025858,72:0.0003090625)''100/100'':0.0814865905)''4.21/39'':0.0037404003,(75:0.0406699111,(14:0.0391898737,74:0.0080762285)''82.1/100'':0.0109978297)''100/100'':0.0436225031)''100/100'':0.0564184007,((90:0.0434183416,(20:0.0269938425,93:0.0319158027)''99.6/100'':0.0257534444)''18.4/91'':0.0055382204,(94:0.0206914109,(91:0.0120677544,92:0.0160556873)''99.9/100'':0.0270105205)''99/100'':0.0224680927)''99.3/100'':0.0504101837)''81.1/44'':0.009637227,((((124:0.0231843313,125:0.0168702414)''99.6/100'':0.0390893005,(33:0.0972267767,(4:0.082928356,126:0.096863972)''14.5/67'':0.0239634725)''92/100'':0.021794802)''99.2/99'':0.0318153851,((77:0.0734463664,(76:0.111498545,(8:0.2975003919,(78:0.0383357862,(25:0.0146330403,79:0.0000020119)''97.8/100'':0.0212844449)''99.7/100'':0.0515101559)''93.7/99'':0.0233716804)''46.5/85'':0.0118291751)''100/100'':0.0878631479,((18:0.0385806337,119:0.0498316692)''100/100'':0.1142172144,((3:0.0798072898,122:0.0552934502)''72.7/54'':0.0054127449,(42:0.0710631859,(123:0.0597705885,((120:0.0304923206,(15:0.0281118724,(5:0.0009986477,40:0.0006671787)''100/100'':0.0390109034)''44/99'':0.0096329267)''98.3/100'':0.0156646817,(121:0.0283195283,((1:0.0286355833,46:0.024687101)''43.4/100'':0.0079916915,(51:0.0121486433,(21:0.0078934558,27:0.0042371423)''99.8/100'':0.0132147245)''60.7/100'':0.0035946916)''92.6/100'':0.0105967192)''100/100'':0.0428422574)''89.9/88'':0.0102853087)''43.9/76'':0.0241679296)''56/54'':0.006651526)''96.3/100'':0.0246531518)''83.3/91'':0.0179650007)''58.3/54'':0.0066370183)''98.1/61'':0.0148999188,(((23:0.0916388615,130:0.0816427307)''90.4/99'':0.0143287437,((127:0.0609852564,128:0.0706973449)''97.5/77'':0.0362218136,(129:0.0529430534,(37:0.0642477972,45:0.0602706458)''74/100'':0.0361592138)''58.6/48'':0.00368576)''92.3/68'':0.0362358004)''7.42/75'':0.0359698175,((137:0.022886291,((133:0.0000028544,136:0.0018664854)''100/100'':0.0185311084,(134:0.0162097816,(135:0.0136661715,138:0.0161850393)''60.6/97'':0.0036157475)''38.9/92'':0.0022894273)''97.2/98'':0.0091059802)''100/100'':0.0384964521,((143:0.0000010019,(141:0.0000010019,142:0.0004241266)''91.8/100'':0.0010891908)''100/100'':0.0773491061,(144:0.0312251703,((139:0.000002924,140:0.0000025755)''100/100'':0.0677260466,(145:0.0251841026,(146:0.0042315215,147:0.0033867444)''100/100'':0.0251671602)''87.9/100'':0.0064708302)''99.6/100'':0.0173127546)''99.7/100'':0.0462969967)''73.8/99'':0.0056308379)''99.5/100'':0.0441773504)''73.7/75'':0.0088150191)''23.8/29'':0.00259432)''91.8/44'':0.0064177761,((((131:0.0113182194,(38:0.0021326966,132:0.0000028968)''96.5/100'':0.0196487976)''100/100'':0.0580497357,((24:0.0020012677,82:0.0000027012)''99.9/100'':0.0275032102,(81:0.0263212233,(11:0.0003790652,80:0.0027694577)''99.4/100'':0.0158705324)''85.5/99'':0.0098324117)''100/100'':0.0502908154)''92.2/98'':0.0111549583,((6:0.0199349422,154:0.0136136691)''100/100'':0.0698269064,((10:0.0878651604,34:0.0757110838)''99.9/100'':0.0394701027,(17:0.1541034136,49:0.0902911194)''62.8/100'':0.0521934315)''86.9/98'':0.0065714841)''98.7/100'':0.0133930569)''93/63'':0.0067013874,((((16:0.0154598854,98:0.0264175294)''100/100'':0.0745411562,(50:0.0386490272,110:0.0364519376)''100/100'':0.0534674843)''23.2/29'':0.0033241731,((101:0.002823039,(31:0.0011254928,100:0.0005893574)''80.1/100'':0.0043236577)''100/100'':0.0564511447,((26:0.0554541177,99:0.0490132616)''99.3/100'':0.024855608,(102:0.0242030102,(7:0.0688595343,103:0.0228012429)''14/86'':0.0074435704)''100/100'':0.0326183776)''53.4/61'':0.0030561097)''92.7/79'':0.0077639603)''81.3/44'':0.0077466107,((96:0.0912850905,97:0.0271772056)''99.9/100'':0.036076907,((19:0.0038234869,(104:0.000863887,105:0.001340864)''82.2/93'':0.0023702337)''100/100'':0.0610998216,((35:0.0217864023,95:0.018010303)''100/100'':0.0476586006,((30:0.0649952131,(106:0.095355795,107:0.0211293746)''51.8/100'':0.0071327645)''97.7/100'':0.0144429529,(109:0.0294678037,(48:0.0000021417,108:0.0038831049)''100/100'':0.0685606047)''100/100'':0.0375354441)''82.8/98'':0.0249813722)''73.2/87'':0.00362947)''30.2/95'':0.0033389789)''89.4/70'':0.0069028616)''93.3/71'':0.0248422965)''84.8/53'':0.0042444594)''89.9/44'':0.0064418765)''52.8/45'':0.0058325494)''99.6/100'':0.0719293517)''94.1/100'':0.0510822761)''85.8/97'':0.0868034223)''97.2/100'':0.0721108508)''100/100'':0.1432819637);';
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName off;
+					showWindow;
+					newAssistant  #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory;
+				tell It;
+					suspend ;
+					setDisplayMode  #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree;
+					tell It;
+						toggleLabels off;
+						togglePredictions off;
+						toggleGray off;
+					endTell;
+					setHistorySource  #mesquite.ancstates.RecAncestralStates.RecAncestralStates;
+					tell It;
+						getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters;
+							tell It;
+								setTaxa #2768664435783089691;
+								setDataSet #2493075549191100691;
+							endTell;
+						endTell;
+						setMethod  #mesquite.stochchar.MargProbAncStates.MargProbAncStates;
+						tell It;
+							setModelSource  #mesquite.stochchar.StoredProbModel.StoredProbModel;
+							tell It;
+								setModel 1   'Mk1 (est.)';
+							endTell;
+							getEmployee #mesquite.stochchar.zMargLikeCateg.zMargLikeCateg;
+							tell It;
+								setReportMode Proportional_Likelihoods;
+								setRootMode Use_Root_State_Frequencies_as_Prior;
+								setDecision 2.0;
+								setUnderflowCheckFreq 2;
+							endTell;
+						endTell;
+						toggleShowSelectedOnly off;
+					endTell;
+					setCharacter 2;
+					setMapping 1;
+					toggleShowLegend on;
+					setColorMode 0;
+					toggleWeights on;
+					setInitialOffsetX 20;
+					setInitialOffsetY 724;
+					setLegendWidth 142;
+					setLegendHeight 180;
+					resume ;
+					modifyColors  4 0  255 10 10 4 1  255 155 5 4 3  25 5 255 4 4  250 5 211;
+				endTell;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					setDigits 4;
+					setThreshold ?;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			makeTreeWindow #2768664435783089691  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTaxa #2768664435783089691;
+					setTreeBlockInt 2;
+					setTreeBlockID 0192050372a211;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1575.1726663463651.2292865655991664481;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.interchange;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.BallsNSticks.BallsNSticks;
+					tell It;
+						setSpotDiameter 50;
+						setEdgeWidth 5;
+						orientLeft;
+						useDiagonal;
+						toggleBallsInternal on;
+						toggleCosmic off;
+						getEmployee #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							setFixedTaxonDistance 0;
+						endTell;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					setSelectedTaxonHighlightMode 1;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setFont Times_New_Roman;
+						setFontSize 12;
+						setColor Black;
+						setTaxonNameStyler  #mesquite.trees.NoColorForTaxon.NoColorForTaxon;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '((55:0.01972207,(56:0.03754559,(57:0.002866744,58:0.001075907):0.01263946):0.05955987):0.021053285,(54:0.008364744,((60:0.2184238,(44:0.008211321,59:0.007226355):0.2429633):0.6293723,((61:0.2550224,(13:0.12672749,(12:0.06569898,62:0.08059212):0.04182401):0.02865253):0.40616,((68:0.1881897,((32:0.006319023,65:0.002690275):0.23077347,(41:0.09117488,(66:0.1138183,67:0.106466):0.08884169):0.09154399,(36:0.2136078,(64:0.09333631,(53:0.1013193,63:0.167185):0.03646718):0.0810047):0.02685639):0.08137089):1.212526,((69:0.06127927,(70:0.002415244,71:0.004477202):0.1030392):0.209077,((((83:0.07423922,84:0.05353644):0.04445652,(88:0.05904315,(85:0.0383925,86:0.05297706):0.00863708,(87:0.03153962,89:0.04478835):0.09533017):0.05168418):0.02721746,((111:0.06847139,((29:0.002696066,43:0.000937123):0.1407915,(112:0.002685618,113:0.04305908):0.04636407):0.02700448):0.07114251,((118:0.1240247,(115:0.1149818,(114:0.09209101,116:0.01747216,117:0.005531035):0.07465686):0.01302215):0.03916796,((47:0.1074421,(150:0.01186252,151:0.02055598):0.03898122):0.0156725,(22:0.1529554,((39:0.0462852,(52:0.05213186,152:0.03216395):0.01125679):0.03407742,((28:0.03761359,153:0.03478332):0.03279349,(148:0.04943962,(2:0.02629545,149:0.03710814):0.03340717):0.02929434):0.02144376):0.01113202):0.01191476):0.01732391):0.008064099):0.01644482):0.007020873,(((((73:0.1021387,(9:0.002302425,72:0.001784314):0.1097473):0.00820334,(75:0.05834279,(14:0.0621841,74:0.01190684):0.01501094):0.05521471):0.06358868,((20:0.05175226,93:0.04201152):0.03522882,(90:0.06788375,(94:0.03737976,(91:0.02067427,92:0.02786475):0.03863301):0.02766424):0.00892662):0.06849768):0.01226817,(((77:0.105402192,(76:0.1469112,(8:0.4307223,(78:0.04621925,(25:0.03752402,79:0.001007093):0.03154576):0.06224358):0.02910903):0.01429663):0.1047661,(((124:0.03758159,125:0.0250372):0.05277632,(4:0.1267104,(33:0.1285651,126:0.149828):0.0347216):0.03821326):0.03745719,((18:0.06677553,119:0.07211034):0.1315108,(122:0.08794936,(3:0.1198774,42:0.1079614):0.02114817,(123:0.08002256,((120:0.04888207,(15:0.04410318,(5:0.002038902,40:0.002119728):0.06772):0.02062471):0.02441345,(121:0.04935117,((1:0.04947813,46:0.04226892):0.01167247,(51:0.02218127,(21:0.0142021,27:0.008868809):0.02309641):0.008314009):0.01401171):0.05279724):0.01541924):0.03067721):0.03367792):0.02419395):0.009740439):0.01283701,(((23:0.1318216,130:0.1112372):0.02124772,(129:0.08174893,(37:0.099379,45:0.08888766):0.05735659,(127:0.09632651,128:0.10087557):0.04497433):0.04698875):0.04444268,((144:0.05058665,((139:0.0007067102,140:0.001274076):0.09488378,(145:0.03877513,(146:0.007400679,147:0.005958265):0.03823097):0.01001069):0.02367582):0.06556146,((143:0.0004722093,(141:0.0003680656,142:0.001112202):0.002261799):0.1062543,(137:0.03515564,(134:0.02382894,(133:0.0009879603,136:0.00325286):0.02995913,(135:0.02221294,138:0.02471434):0.006279079):0.01429834):0.05483045):0.01240135):0.06444531):0.01028697):0.005446687):0.00686652,((((131:0.01940989,(38:0.003941231,132:0.0008957491):0.02958791):0.08422643,((24:0.006778861,82:0.0009447023):0.04215887,(81:0.04296076,(11:0.001394763,80:0.005024926):0.02817237):0.01322699):0.06627873):0.01269537,((6:0.03532236,154:0.02311503):0.09797831,((10:0.11800842,34:0.1135486):0.0444278,(17:0.21059661,49:0.1290881):0.0725069):0.00941502):0.01774124):0.009485024,((50:0.05684418,110:0.06385701):0.06952541,(7:0.09833819,(102:0.04179323,103:0.04372988):0.01197258):0.05021131,((101:0.005641925,(31:0.002524631,100:0.001605061):0.008701705):0.07694969,((16:0.03467828,98:0.03829645):0.08502306,(26:0.08772614,99:0.07066686):0.02398188):0.01609999):0.01030914,((19:0.006587322,(104:0.002142262,105:0.003189597):0.005284955):0.09064313,((96:0.120339,97:0.04266713):0.04505068,((35:0.03971066,95:0.02965795):0.07045154,((30:0.09276309,(106:0.1320936,107:0.03940582):0.009261388):0.02008779,(109:0.04893172,(48:0.001738338,108:0.00657035):0.1034543):0.0482692):0.03017119):0.00682839):0.006788779):0.009431593):0.03327945):0.006087095):0.008412096):0.06283855):0.05139331):0.1004805):0.0828042):0.2955217):0.021053285);';
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName off;
+					showWindow;
+					newAssistant  #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory;
+				tell It;
+					suspend ;
+					setDisplayMode  #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree;
+					tell It;
+						toggleLabels off;
+						togglePredictions off;
+						toggleGray off;
+					endTell;
+					setHistorySource  #mesquite.ancstates.RecAncestralStates.RecAncestralStates;
+					tell It;
+						getCharacterSource  #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed;
+						tell It;
+							setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters;
+							tell It;
+								setTaxa #2768664435783089691;
+								setDataSet #2493075549191100691;
+							endTell;
+						endTell;
+						setMethod  #mesquite.stochchar.MargProbAncStates.MargProbAncStates;
+						tell It;
+							setModelSource  #mesquite.stochchar.StoredProbModel.StoredProbModel;
+							tell It;
+								setModel 1   'Mk1 (est.)';
+							endTell;
+							getEmployee #mesquite.stochchar.zMargLikeCateg.zMargLikeCateg;
+							tell It;
+								setReportMode Proportional_Likelihoods;
+								setRootMode Use_Root_State_Frequencies_as_Prior;
+								setDecision 2.0;
+								setUnderflowCheckFreq 2;
+							endTell;
+						endTell;
+						toggleShowSelectedOnly off;
+					endTell;
+					setCharacter 2;
+					setMapping 1;
+					toggleShowLegend on;
+					setColorMode 0;
+					toggleWeights on;
+					setInitialOffsetX -162;
+					setInitialOffsetY 4;
+					setLegendWidth 139;
+					setLegendHeight 180;
+					resume ;
+					modifyColors  4 0  255 10 10 4 1  255 155 5 4 3  25 5 255 4 4  255 5 215;
+				endTell;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					setDigits 4;
+					setThreshold ?;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			makeTreeWindow #2768664435783089691  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					laxMode;
+					setTaxa #2768664435783089691;
+					setTreeBlock -2147483647;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 2310.1726737318735.3186549062269246078;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.interchange;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.BallsNSticks.BallsNSticks;
+					tell It;
+						setSpotDiameter 22;
+						setEdgeWidth 2;
+						orientDown;
+						useDiagonal;
+						toggleBallsInternal on;
+						toggleCosmic off;
+						getEmployee #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							setFixedTaxonDistance 0;
+						endTell;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					setSelectedTaxonHighlightMode 1;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						setTaxonNameStyler  #mesquite.trees.NoColorForTaxon.NoColorForTaxon;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName off;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					setDigits 4;
+					setThreshold ?;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #3075381450977678029 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+			showDataWindow #2493075549191100691 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+			showDataWindow #8327459922748406146 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			showDatasList  #mesquite.lists.DatasetList.DatasetList;
+			tell It;
+				getWindow;
+				tell It;
+					useTargetValue off;
+					setTargetValue ;
+					newAssistant  #mesquite.lists.DatasetsListTaxa.DatasetsListTaxa;
+					newAssistant  #mesquite.lists.DatasetsListNumChars.DatasetsListNumChars;
+					newAssistant  #mesquite.lists.DatasetsListClass.DatasetsListClass;
+					newAssistant  #mesquite.lists.MatrixListVisible.MatrixListVisible;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+			endTell;
+			showCharacters #2493075549191100691 #mesquite.lists.CharacterList.CharacterList;
+			tell It;
+				setData 1;
+				getWindow;
+				tell It;
+					useTargetValue off;
+					setTargetValue ;
+					newAssistant  #mesquite.lists.DefaultCharOrder.DefaultCharOrder;
+					newAssistant  #mesquite.lists.CharListInclusion.CharListInclusion;
+					newAssistant  #mesquite.lists.CharListPartition.CharListPartition;
+					newAssistant  #mesquite.parsimony.CharListParsModels.CharListParsModels;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1651 891;
+					setLocation 1591 -192;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

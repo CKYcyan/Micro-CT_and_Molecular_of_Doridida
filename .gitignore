@@ -1,0 +1,34 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+
+# R session workspaces and local histories
+.RData
+.Rhistory
+.Rproj.user/
+
+# Very large MrBayes sampled-tree files and backups.
+# Consensus trees, MCC trees, input alignments, and summary files remain tracked.
+Molecular_Phylogeny/MrBayes6133_1000to4000/infile.nex.run1.t
+Molecular_Phylogeny/MrBayes6133_1000to4000/infile.nex.run2.t
+Molecular_Phylogeny/MrBayes6133_1000to4000/infile.nex.run1.t%7E
+Molecular_Phylogeny/MrBayes6133_1000to4000/infile.nex.run2.t%7E
+
+# Raw Micro-CT volumes should remain in MorphoSource, not Git.
+raw/
+MicroCT_data/raw/
+*.bmp
+*.tif
+*.tiff
+*.zip
+*.7z
+*.rar
+*.nii
+*.nrrd
+*.mhd
+*.raw
+
+# Local backup of accidental nested Git repositories
+.nested_git_backups/

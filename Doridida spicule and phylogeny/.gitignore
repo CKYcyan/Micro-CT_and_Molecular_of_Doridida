@@ -1,0 +1,29 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Reproducible small analysis outputs under results/ are versioned when they
+# support manuscript checks. Keep only disposable temporary outputs ignored.
+results/**/tmp/
+results/**/temp/
+
+# Large raw or derived image volumes should remain in MorphoSource, not Git
+raw/
+MicroCT_data/raw/
+*.bmp
+*.tif
+*.tiff
+*.zip
+*.7z
+*.rar
+*.nii
+*.nrrd
+*.mhd
+*.raw

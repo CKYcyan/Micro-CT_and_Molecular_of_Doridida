@@ -15,12 +15,12 @@ Raw Micro-CT volumes and specimen images are archived separately in MorphoSource
 
 ## Current Final-Stage Note
 
-As of 2026-07-31, the active morphometric input is:
+As of 2026-08-06, the active morphometric input is:
 
 - `Doridida spicule and phylogeny/data/analysis.csv`
 
 The current Python audit outputs are:
 
-- `Doridida spicule and phylogeny/results/morphometric_analysis_20260731/`
+- `Doridida spicule and phylogeny/results/morphometric_analysis_20260806_R002_R003_D/`
 
 The public R workflow remains the preferred final reproducible workflow when R and the required packages are available.

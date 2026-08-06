@@ -1,0 +1,59 @@
+Input file: G:\我的雲端硬碟\0.RPG_System_Center\Raw\0.Publish\1.Doridida spicule and phylogeny\github-repo\Micro-CT_and_Molecular_of_Doridida\Doridida spicule and phylogeny\data\analysis.csv
+Output directory: G:\我的雲端硬碟\0.RPG_System_Center\Raw\0.Publish\1.Doridida spicule and phylogeny\github-repo\Micro-CT_and_Molecular_of_Doridida\Doridida spicule and phylogeny\results\morphometric_analysis_20260806_R002_R003_D
+Seed: 20260707
+Permutations: 9999
+Samples included: 51
+Variables included: 12
+
+Network group sizes:
+B    21
+C    11
+D    15
+E     4
+
+PCA variance summary:
+  PC  StandardDeviation  ProportionVariance  CumulativeVariance
+ PC1            2.55759            0.545107            0.545107
+ PC2            1.65966            0.229538            0.774645
+ PC3            1.10994            0.102663            0.877308
+ PC4           0.838398           0.0585759            0.935884
+ PC5           0.499566           0.0207972            0.956681
+ PC6           0.436463            0.015875            0.972556
+ PC7           0.369714           0.0113907            0.983947
+ PC8           0.319988           0.0085327             0.99248
+ PC9           0.233975          0.00456204            0.997042
+PC10            0.15375          0.00196992            0.999012
+PC11           0.101143         0.000852485            0.999864
+PC12          0.0403857         0.000135917                   1
+
+PERMANOVA global:
+ Df  Df_residual  SumOfSqs  SumOfSqs_residual       R2       F      P
+  3           47   260.775            339.225 0.434626 12.0436 0.0001
+
+Pairwise PERMANOVA:
+Group1 Group2  Df  Df_residual  SumOfSqs  SumOfSqs_residual        R2       F      P  P_adjusted_holm
+     B      C   1           30   76.3008            223.977  0.254101 10.2199 0.0001           0.0006
+     B      D   1           34   193.643            268.185  0.419297 24.5497 0.0001           0.0006
+     B      E   1           23   101.444            190.228  0.347802 12.2653 0.0004           0.0016
+     C      D   1           24   28.1623            148.996  0.158967 4.53632 0.0042           0.0084
+     C      E   1           13   29.7642            71.0393   0.29527 5.44677 0.0028           0.0084
+     D      E   1           17   9.05098            115.248 0.0728164  1.3351 0.2466           0.2466
+
+PERMDISP global:
+ Df  Df_residual  SumOfSqs  SumOfSqs_residual        F      P
+  3           47  0.874789            118.622 0.115535 0.9607
+
+Kruskal-Wallis:
+Variable  Statistic  Df           P  P_adjusted_holm
+ M.BV/TV      35.77   3 8.37567e-08      9.21324e-07
+ M.BS/BV    23.3145   3 3.47247e-05      0.000208348
+ M.Tb.Pf    33.3055   3 2.77652e-07      2.49887e-06
+   M.SMI    39.2105   3 1.56626e-08      1.87952e-07
+ M.Tb.Th    16.4957   3  0.00089722       0.00101919
+  M.Tb.N    22.7946   3 4.45654e-05      0.000222827
+ F.BV/TV    33.0712   3 3.11113e-07      2.49887e-06
+ F.BS/BV    21.5801   3 7.97623e-05      0.000239287
+ F.Tb.Pf    29.3569   3 1.88417e-06      1.31892e-05
+   F.SMI    34.3645   3 1.65942e-07      1.65942e-06
+ F.Tb.Th    17.6899   3 0.000509593       0.00101919
+  F.Tb.N    22.2915   3 5.67273e-05      0.000226909

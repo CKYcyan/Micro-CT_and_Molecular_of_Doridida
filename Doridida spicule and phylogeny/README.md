@@ -51,14 +51,14 @@ python scripts/morphometric_analysis_python_audit.py
 The Python audit reads `data/analysis.csv` and writes PCA summaries, PERMANOVA, pairwise PERMANOVA, PERMDISP, Kruskal-Wallis, and Dunn-Holm tables to:
 
 ```text
-results/morphometric_analysis_20260731/
+results/morphometric_analysis_20260806_R002_R003_D/
 ```
 
 These outputs are intended for final-stage consistency checks. The R/vegan workflow should remain the primary analysis source for final manuscript p-values where available.
 
 ## Data notes
 
-`data/analysis.csv` contains four spicule-bearing arrangement categories coded in the manuscript data table. The analysis does not include the `None` category because shell-state analyses and non-spicule-bearing states were not part of the Micro-CT morphometric PERMANOVA/PERMDISP tests.
+`data/analysis.csv` contains four spicule-bearing arrangement categories coded in the manuscript data table. The current coding treats R002 and R003 as `D` (`Trabecular`), consistent with their Cadlinidae assignment. The analysis does not include the `None` category because shell-state analyses and non-spicule-bearing states were not part of the Micro-CT morphometric PERMANOVA/PERMDISP tests.
 
 `metadata/` contains MorphoSource-oriented Micro-CT scan metadata extracted from scanner logs and associated notes.
 

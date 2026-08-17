@@ -1,11 +1,11 @@
 # Tree files
 
-Add phylogenetic tree files here before the repository is made public for the manuscript.
+Tree and alignment files for the manuscript are tracked at the repository level in `../Molecular_Phylogeny/` rather than duplicated inside this lightweight package folder.
 
-Recommended contents:
+Key locations:
 
-- Bayesian inference consensus tree used for the main topology figure.
-- Maximum-likelihood tree used for comparison and supplementary reporting.
-- Any annotation table needed to link tree tip labels to voucher/specimen names.
+- `../Molecular_Phylogeny/2024_09_18-12_36_39 (IQtree)/` - IQ-TREE alignment, log, model, support and tree outputs.
+- `../Molecular_Phylogeny/MrBayes6133_1000to4000/` - MrBayes consensus trees, MCC trees and associated run summaries.
+- `../Trace_History/` - ancestral-state reconstruction tree files and trace-history source outputs.
 
-No tree files were found in the project folder during the initial repository setup on 2026-07-07.
+This folder is retained as a pointer for users who enter the `Doridida spicule and phylogeny/` package directly.

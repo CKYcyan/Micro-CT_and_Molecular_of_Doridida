@@ -13,12 +13,12 @@ Permanent MorphoSource identifiers should replace these temporary links after pu
 
 ## Repository structure
 
-- `R/` - R scripts for morphometric statistics.
+- `R/` - R scripts for morphometric statistics and final Fig. 3 plotting.
 - `data/` - lightweight input data used by the R analyses.
 - `metadata/` - Micro-CT scan metadata prepared for MorphoSource.
 - `scripts/` - auxiliary audit scripts used when the R environment is unavailable.
 - `results/` - small reproducible result tables and summaries retained for audit.
-- `trees/` - phylogenetic tree files to be added before final public release.
+- `trees/` - local notes for tree-file placement; original tree and alignment files are tracked in the top-level `../Molecular_Phylogeny/` folder.
 
 ## Morphometric analysis
 
@@ -39,6 +39,26 @@ Optional R package:
 - `dunn.test`
 
 The script writes generated output files to `results/`.
+
+
+### Final Fig. 3 plotting workflow
+
+The final ggplot2 script used to recreate the corrected Fig. 3 layout is:
+
+```bash
+Rscript R/plot_fig3_ggplot2_final_20260807.R
+```
+
+The script reads `data/analysis.csv` and writes PNG/PDF outputs to:
+
+```text
+results/fig3_20260807/
+```
+
+Required R packages:
+
+- `ggplot2`
+- `grid` (base R)
 
 ### Python audit workflow
 
@@ -64,4 +84,4 @@ These outputs are intended for final-stage consistency checks. The R/vegan workf
 
 ## Tree files
 
-The manuscript currently presents the Bayesian tree as the main phylogenetic result and also refers to maximum-likelihood analyses. The original ML and BI tree files should be added to `trees/` before final public release if they are intended to support the manuscript data availability statement.
+The manuscript presents the Bayesian tree as the main phylogenetic result and provides the ML topology for comparison. To avoid duplicating large or parallel tree folders, the original alignment and tree files are tracked in the repository-level `../Molecular_Phylogeny/` folder, including the IQ-TREE output folder and the MrBayes consensus/MCC tree files. The local `trees/` folder is retained as a pointer for readers browsing only this lightweight package.

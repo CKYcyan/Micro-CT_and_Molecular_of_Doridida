@@ -1,0 +1,57 @@
+R-only one-factor analysis; specimen is the independent unit.
+Input: analysis.csv 
+Samples: 51 
+Permutations: 9999 
+Dunn P: two-sided; Holm adjustment within six contrasts for each variable.
+Kruskal-Wallis Holm family: 12 variables; pairwise PERMANOVA Holm family: six contrasts.
+
+group
+SpA1 SpA2 SpA3 SpA4 
+  21   11   15    4 
+Permutation test for adonis under reduced model
+Permutation: free
+Number of permutations: 9999
+
+vegan::adonis2(formula = distance_matrix ~ group, permutations = opt$permutations)
+         Df SumOfSqs      R2      F Pr(>F)    
+Model     3   260.78 0.43463 12.044  1e-04 ***
+Residual 47   339.22 0.56537                  
+Total    50   600.00 1.00000                  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+  Group1 Group2 Df Df_residual   SumOfSqs         R2         F      P
+1   SpA1   SpA2  1          30  76.300776 0.25410065 10.219903 0.0001
+2   SpA1   SpA3  1          34 193.643483 0.41929710 24.549733 0.0001
+3   SpA1   SpA4  1          23 101.444065 0.34780150 12.265337 0.0003
+4   SpA2   SpA3  1          24  28.162300 0.15896651  4.536319 0.0038
+5   SpA2   SpA4  1          13  29.764205 0.29526952  5.446769 0.0035
+6   SpA3   SpA4  1          17   9.050976 0.07281638  1.335095 0.2460
+  P_adjusted_holm
+1          0.0006
+2          0.0006
+3          0.0012
+4          0.0105
+5          0.0105
+6          0.2460
+
+Permutation test for homogeneity of multivariate dispersions
+Permutation: free
+Number of permutations: 9999
+
+Response: Distances
+          Df  Sum Sq Mean Sq      F N.Perm Pr(>F)
+Groups     3   0.875  0.2916 0.1155   9999 0.9566
+Residuals 47 118.623  2.5239                     
+   Variable Statistic Df            P P_adjusted_holm
+1   M.BV/TV  35.76996  3 8.375669e-08    9.213236e-07
+2   M.BS/BV  23.31445  3 3.472471e-05    2.083483e-04
+3   M.Tb.Pf  33.30549  3 2.776517e-07    2.498865e-06
+4     M.SMI  39.21052  3 1.566264e-08    1.879517e-07
+5   M.Tb.Th  16.49569  3 8.972204e-04    1.019187e-03
+6    M.Tb.N  22.79463  3 4.456538e-05    2.228269e-04
+7   F.BV/TV  33.07124  3 3.111134e-07    2.498865e-06
+8   F.BS/BV  21.58006  3 7.976233e-05    2.392870e-04
+9   F.Tb.Pf  29.35694  3 1.884171e-06    1.318920e-05
+10    F.SMI  34.36454  3 1.659422e-07    1.659422e-06
+11  F.Tb.Th  17.68995  3 5.095933e-04    1.019187e-03
+12   F.Tb.N  22.29147  3 5.672726e-05    2.269090e-04

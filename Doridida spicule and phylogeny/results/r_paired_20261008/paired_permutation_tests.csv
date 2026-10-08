@@ -1,0 +1,4 @@
+"Effect","Space","Df","Df_residual","SumOfSqs","SumOfSqs_residual","R2","F","P","Permutation","N_specimens","N_permutations"
+"SpA","Specimen averages",3,47,126.399892332673,146.86890413353,0.46254784288299,13.4832147864202,1e-04,"Specimen-level SpA labels",51,9999
+"Region","Paired mantle-minus-foot differences",1,50,1.3870859700388,117.537728165146,0.0116635538186511,0.590059886171137,0.6092,"Independent sign flip of each specimen vector",51,9999
+"SpA x Region","Paired mantle-minus-foot differences",3,47,20.9657806531986,96.5719475119471,0.178374901238016,3.40123509323944,0.0036,"Specimen-level SpA labels",51,9999

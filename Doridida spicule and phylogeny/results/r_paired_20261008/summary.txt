@@ -1,0 +1,25 @@
+New R implementation of the recorded paired method; no independent treatment of 102 rows.
+Six corresponding variables scaled jointly across 102 region measurements before pairing.
+Region SS = n * sum(mean difference vector squared); residual SS = centered difference SS.
+Region pseudo-F = SS_region / (SS_residual/(n-1)); sign flips preserve each entire vector.
+The three effects use separate reference spaces; their R2 values are not additive.
+PERMDISP uses vegan residual permutations, spatial medians and bias.adjust=FALSE.
+
+        Effect                                Space Df Df_residual   SumOfSqs
+1          SpA                    Specimen averages  3          47 126.399892
+2       Region Paired mantle-minus-foot differences  1          50   1.387086
+3 SpA x Region Paired mantle-minus-foot differences  3          47  20.965781
+  SumOfSqs_residual         R2          F      P
+1         146.86890 0.46254784 13.4832148 0.0001
+2         117.53773 0.01166355  0.5900599 0.6092
+3          96.57195 0.17837490  3.4012351 0.0036
+                                    Permutation N_specimens N_permutations
+1                     Specimen-level SpA labels          51           9999
+2 Independent sign flip of each specimen vector          51           9999
+3                     Specimen-level SpA labels          51           9999
+               Space Df Df_residual  SumOfSqs SumOfSqs_residual         F
+1  Specimen averages  3          47 0.6159318          61.14628 0.1578117
+2 Paired differences  3          47 0.6421428          31.15488 0.3229105
+       P
+1 0.9288
+2 0.8121

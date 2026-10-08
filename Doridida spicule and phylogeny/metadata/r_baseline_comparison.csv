@@ -1,0 +1,7 @@
+"Check","Pass"
+"PCA variance",TRUE
+"kruskal_wallis_by_variable shared numeric columns",TRUE
+"pairwise_permanova shared numeric columns",TRUE
+"pca_scores shared numeric columns",TRUE
+"pca_loadings shared numeric columns",TRUE
+"permdisp_distances_to_median shared numeric columns",TRUE

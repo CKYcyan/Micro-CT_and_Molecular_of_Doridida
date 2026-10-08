@@ -1,0 +1,20 @@
+"Entry","Historical_display","R_20261008","R_display","Display_matches"
+"S11 global PERMANOVA","<0.001",1e-04,"<0.001",TRUE
+"S11 global PERMDISP","0.961",0.9566,"0.957",FALSE
+"S12 SpA1 vs SpA2 raw","<0.001",1e-04,"<0.001",TRUE
+"S12 SpA1 vs SpA3 raw","<0.001",1e-04,"<0.001",TRUE
+"S12 SpA1 vs SpA4 raw","<0.001",3e-04,"<0.001",TRUE
+"S12 SpA2 vs SpA3 raw","0.004",0.0038,"0.004",TRUE
+"S12 SpA2 vs SpA4 raw","0.003",0.0035,"0.004",FALSE
+"S12 SpA3 vs SpA4 raw","0.247",0.246,"0.246",FALSE
+"S12 SpA1 vs SpA2 Holm","<0.001",6e-04,"<0.001",TRUE
+"S12 SpA1 vs SpA3 Holm","<0.001",6e-04,"<0.001",TRUE
+"S12 SpA1 vs SpA4 Holm","0.002",0.0012,"0.001",FALSE
+"S12 SpA2 vs SpA3 Holm","0.008",0.0105,"0.010",FALSE
+"S12 SpA2 vs SpA4 Holm","0.008",0.0105,"0.010",FALSE
+"S12 SpA3 vs SpA4 Holm","0.247",0.246,"0.246",FALSE
+"S13 SpA","<0.001",1e-04,"<0.001",TRUE
+"S13 Region","0.612",0.6092,"0.609",FALSE
+"S13 SpA x Region","0.004",0.0036,"0.004",TRUE
+"S14 Specimen averages","0.931",0.9288,"0.929",FALSE
+"S14 Paired differences","0.813",0.8121,"0.812",FALSE

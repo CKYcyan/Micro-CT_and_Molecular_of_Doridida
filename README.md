@@ -1,31 +1,22 @@
 # Micro-CT and Molecular Data for Doridida
 
-This repository contains lightweight analysis files associated with the manuscript:
+Data and code associated with **Micro-CT and molecular phylogenetics suggest evolutionary patterns in spicule and shell architecture within Doridida (Gastropoda: Heterobranchia)**.
 
-**Micro-CT and molecular phylogenetics suggest evolutionary patterns in spicule and shell architecture within Doridida (Gastropoda: Heterobranchia)**
+The manuscript's statistical analysis and figure workflow uses **R only**. The 2026-10-08 release uses 51 specimens, with mantle and foot paired within specimens. See the [R workflow instructions](Doridida%20spicule%20and%20phylogeny/README.md).
 
-Raw Micro-CT volumes and specimen images are archived separately in MorphoSource.
+## Repository contents
 
-## Repository Layout
+- Doridida spicule and phylogeny/: canonical morphometric input, R code, tests, dated R results and provenance.
+- Molecular_Phylogeny/: historical IQ-TREE/MrBayes inputs, trees and summaries.
+- Trace_History/: historical Mesquite and ancestral-state artifacts.
+- Morphological_Analysis/: historical morphology files; its CSV matches the canonical SpA-coded input.
 
-- `Doridida spicule and phylogeny/` - public lightweight analysis package, including morphometric input data, scripts, metadata, and reproducible result tables.
-- `Molecular_Phylogeny/` - source files and outputs for ML and BI phylogenetic analyses.
-- `Trace_History/` - ancestral-state reconstruction and trace-history source outputs.
-- `Morphological_Analysis/` - historical morphometric-analysis files retained for audit and comparison.
+Raw Micro-CT volumes and specimen images are archived separately in MorphoSource. Large sampled MrBayes trees and local session histories remain excluded by existing Git ignore rules.
 
-## Current Final-Stage Note
+## Validation status
 
-As of 2026-08-17, the active morphometric input is:
+R morphometric analyses and regression checks completed on 2026-10-08. Some permutation p-values differ from the manuscript snapshot and require reconciliation. Tree parsing is narrower than inference validation: historical MCC support labels and several Mesquite mappings remain unresolved.
 
-- `Doridida spicule and phylogeny/data/analysis.csv`
+See the [validation report](Doridida%20spicule%20and%20phylogeny/metadata/VALIDATION_20261008.md) and [provenance](Doridida%20spicule%20and%20phylogeny/metadata/ANALYSIS_PROVENANCE.md).
 
-The current Python audit outputs are:
-
-- `Doridida spicule and phylogeny/results/morphometric_analysis_20260806_R002_R003_D/`
-
-The public R workflows are:
-
-- `Doridida spicule and phylogeny/R/analysis_microct_spicule_arrangement.R` for PCA, PERMANOVA, PERMDISP, pairwise PERMANOVA, Kruskal-Wallis and Dunn-style post-hoc tables.
-- `Doridida spicule and phylogeny/R/plot_fig3_ggplot2_final_20260807.R` for the final Fig. 3 ggplot2 layout based on the corrected R002/R003 coding.
-
-Alignment files and BI/ML tree files are tracked in the top-level `Molecular_Phylogeny/` folder. Ancestral-state reconstruction files are tracked in `Trace_History/`.
+Earlier auxiliary scripts/results remain as historical records. The historical Python script and its outputs are excluded from the manuscript's current workflow and validation evidence.

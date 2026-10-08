@@ -1,0 +1,2 @@
+PASS: measurements unchanged after label normalization; both repository CSVs byte-identical.
+PASS: 28 CSV outputs reproduced from the actual repository path.

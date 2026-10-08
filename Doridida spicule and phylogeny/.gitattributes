@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep input/provenance hashes stable across Git line-ending settings.
+data/analysis.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+archive/R/*.R -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+R/*.R text eol=lf
+tests/*.R text eol=lf
+
+# Historical sources retain original EOF padding; R console tables retain display padding.
+results/**/sessionInfo.txt whitespace=-blank-at-eol
+results/**/summary.txt whitespace=-blank-at-eol

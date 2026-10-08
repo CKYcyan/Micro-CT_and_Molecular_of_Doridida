@@ -1,0 +1,78 @@
+PASS: specimen count and group sizes
+PASS: R002/R003 coding
+PASS: BOM/label parity: spa.csv
+PASS: BOM/label parity: spa_bom.csv
+PASS: BOM/label parity: legacy.csv
+PASS: BOM/label parity: legacy_bom.csv
+PASS: reject duplicate_sample
+PASS: reject empty_sample
+PASS: reject unknown_group
+PASS: reject infinite_value
+PASS: reject missing_value
+PASS: reject constant_response
+PASS: reject missing_column
+PASS: reject nonnumeric_value
+PASS: reject CLI: --seed -1
+PASS: reject CLI: --permutations 0
+PASS: reject CLI: --other 1
+PASS: reject CLI: --input
+PASS: Dunn and compact-letter dimensions
+PASS: rank/tie-corrected Dunn Z: M.BV/TV
+PASS: two-sided P and six-comparison Holm family: M.BV/TV
+PASS: letters match six pairwise decisions: M.BV/TV
+PASS: rank/tie-corrected Dunn Z: M.BS/BV
+PASS: two-sided P and six-comparison Holm family: M.BS/BV
+PASS: letters match six pairwise decisions: M.BS/BV
+PASS: rank/tie-corrected Dunn Z: M.Tb.Pf
+PASS: two-sided P and six-comparison Holm family: M.Tb.Pf
+PASS: letters match six pairwise decisions: M.Tb.Pf
+PASS: rank/tie-corrected Dunn Z: M.SMI
+PASS: two-sided P and six-comparison Holm family: M.SMI
+PASS: letters match six pairwise decisions: M.SMI
+PASS: rank/tie-corrected Dunn Z: M.Tb.Th
+PASS: two-sided P and six-comparison Holm family: M.Tb.Th
+PASS: letters match six pairwise decisions: M.Tb.Th
+PASS: rank/tie-corrected Dunn Z: M.Tb.N
+PASS: two-sided P and six-comparison Holm family: M.Tb.N
+PASS: letters match six pairwise decisions: M.Tb.N
+PASS: rank/tie-corrected Dunn Z: F.BV/TV
+PASS: two-sided P and six-comparison Holm family: F.BV/TV
+PASS: letters match six pairwise decisions: F.BV/TV
+PASS: rank/tie-corrected Dunn Z: F.BS/BV
+PASS: two-sided P and six-comparison Holm family: F.BS/BV
+PASS: letters match six pairwise decisions: F.BS/BV
+PASS: rank/tie-corrected Dunn Z: F.Tb.Pf
+PASS: two-sided P and six-comparison Holm family: F.Tb.Pf
+PASS: letters match six pairwise decisions: F.Tb.Pf
+PASS: rank/tie-corrected Dunn Z: F.SMI
+PASS: two-sided P and six-comparison Holm family: F.SMI
+PASS: letters match six pairwise decisions: F.SMI
+PASS: rank/tie-corrected Dunn Z: F.Tb.Th
+PASS: two-sided P and six-comparison Holm family: F.Tb.Th
+PASS: letters match six pairwise decisions: F.Tb.Th
+PASS: rank/tie-corrected Dunn Z: F.Tb.N
+PASS: two-sided P and six-comparison Holm family: F.Tb.N
+PASS: letters match six pairwise decisions: F.Tb.N
+PASS: joint standardization of 102 measurements
+PASS: average/difference reconstruct original paired observations
+PASS: independent sums of squares: averages
+PASS: independent sums of squares: differences
+PASS: univariate Region F equals paired t squared
+PASS: zero-difference edge case
+PASS: sign-flip seed repeatability
+PASS: exhaustive sign-flip formula 1
+PASS: exhaustive sign-flip formula 2
+PASS: exhaustive sign-flip formula 3
+PASS: exhaustive sign-flip formula 4
+PASS: exhaustive sign-flip formula 5
+PASS: exhaustive sign-flip formula 6
+PASS: exhaustive sign-flip formula 7
+PASS: exhaustive sign-flip formula 8
+PASS: 51 independent specimen vectors
+PASS: R parse: analysis_microct_spicule_arrangement.R
+PASS: R parse: analysis_paired_regions.R
+PASS: R parse: install_dependencies.R
+PASS: R parse: plot_fig3_ggplot2_final_20260807.R
+PASS: R parse: validate_phylogeny_assets.R
+PASS: R parse: workflow_helpers.R
+SUCCESS: 77 checks passed.

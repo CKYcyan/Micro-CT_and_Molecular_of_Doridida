@@ -1,23 +1,44 @@
 #!/usr/bin/env Rscript
 
-args_all <- commandArgs(trailingOnly = FALSE)
-script_arg <- grep("^--file=", args_all, value = TRUE)
-root <- if (length(script_arg)) {
-  normalizePath(file.path(dirname(sub("^--file=", "", script_arg[1])), ".."), winslash = "/", mustWork = TRUE)
-} else normalizePath(getwd(), winslash = "/", mustWork = TRUE)
-source(file.path(root, "R", "workflow_helpers.R"))
+suppressPackageStartupMessages({
+  library(ggplot2)
+  library(grid)
+})
 
-require_packages(c("ggplot2", "dunn.test", "multcompView"))
-suppressPackageStartupMessages({library(ggplot2); library(grid)})
-opt <- parse_options(root, "fig3_R_20261008")
-dat <- read_morphometrics(opt$input)
-outdir <- opt$output
+input_csv <- file.path(
+  "1.Doridida spicule and phylogeny",
+  "MicroCT_data",
+  "analysis.csv"
+)
+outdir <- file.path(
+  "1.Doridida spicule and phylogeny",
+  "0.Documant",
+  "Publich"
+)
+
+if (!file.exists(input_csv)) {
+  stop("Input CSV not found. Run this script from the 0.Publish directory.")
+}
 dir.create(outdir, showWarnings = FALSE, recursive = TRUE)
-dat$NetworkCode <- dat$Network
-dat$Arrangement <- factor(dat$Network, levels = arrangement_levels, labels = unname(arrangement_names))
-arrangement_cols <- c(Separate = "#FFDB99", Cobweb = "#99FF99",
-                      Trabecular = "#9999FF", Sheets = "#FFD9E0")
-x_axis_labels <- paste0("(", arrangement_levels, ") ", arrangement_names)
+
+dat <- read.csv(input_csv, stringsAsFactors = FALSE, check.names = FALSE)
+dat <- dat[dat$Network %in% c("B", "C", "D", "E"), ]
+dat$NetworkCode <- factor(dat$Network, levels = c("B", "C", "D", "E"))
+dat$Arrangement <- factor(
+  dat$Network,
+  levels = c("B", "C", "D", "E"),
+  labels = c("Separate", "Cobweb", "Trabecular", "Sheets")
+)
+
+# Use the previous Foot-like pale tones as the base colors for both regions.
+arrangement_cols <- c(
+  "Separate" = "#FFDB99",
+  "Cobweb" = "#99FF99",
+  "Trabecular" = "#9999FF",
+  "Sheets" = "#FFD9E0"
+)
+
+x_axis_labels <- c("(B) Separate", "(C) Cobweb", "(D) Trabecular", "(E) Sheets")
 
 variable_specs <- list(
   list(
@@ -38,7 +59,7 @@ variable_specs <- list(
   list(
     panel = "D", key = "S.Pf",
     axis_label = expression("Spicule pattern factor (" * mu * "m"^-1 * ")"),
-    m = "M.Tb.Pf", f = "F.Tb.Pf"
+    m = "M.Tb.Pf", f = "F.Tb.Pf", ymin = 0
   ),
   list(
     panel = "E", key = "SMI",
@@ -52,19 +73,26 @@ variable_specs <- list(
   )
 )
 
-# Letters are recalculated from this input using two-sided Dunn/base-R Holm.
-dunn <- dunn_tables(dat)
-compact <- figure_letters(dunn)
-key_map <- c("BV/TV" = "SV/TV", "BS/BV" = "SS/SV", "Tb.Pf" = "S.Pf",
-             "SMI" = "SMI", "Tb.Th" = "S.Th", "Tb.N" = "S.N")
 dunn_letters <- data.frame(
-  Region = ifelse(startsWith(compact$Variable, "M."), "Mantle", "Foot"),
-  Variable = unname(key_map[sub("^[MF][.]", "", compact$Variable)]),
-  Arrangement = unname(arrangement_names[compact$Network]),
-  Letter = compact$Letter, stringsAsFactors = FALSE)
-write.csv(dunn, file.path(outdir, "figure_dunn_tests.csv"), row.names = FALSE)
-write.csv(dunn_letters, file.path(outdir, "figure_letters.csv"), row.names = FALSE)
-
+  Region = rep(c(rep("Mantle", 6), rep("Foot", 6)), each = 4),
+  Variable = rep(rep(c("SV/TV", "S.Th", "S.N", "S.Pf", "SMI", "SS/SV"), each = 4), 2),
+  Arrangement = rep(c("Separate", "Cobweb", "Trabecular", "Sheets"), times = 12),
+  Letter = c(
+    "a", "ab", "b", "b",
+    "a", "ab", "b", "ab",
+    "a", "ab", "b", "b",
+    "a", "ab", "c", "bc",
+    "a", "a", "b", "b",
+    "a", "ab", "b", "ab",
+    "a", "b", "b", "b",
+    "a", "b", "b", "ab",
+    "a", "b", "b", "b",
+    "a", "b", "b", "b",
+    "a", "b", "b", "b",
+    "a", "b", "b", "ab"
+  ),
+  stringsAsFactors = FALSE
+)
 dunn_letters$Arrangement <- factor(
   dunn_letters$Arrangement,
   levels = c("Separate", "Cobweb", "Trabecular", "Sheets")
@@ -345,8 +373,8 @@ align_plot_grobs <- function(plot_list) {
   })
 }
 
-png_file <- file.path(outdir, "Fig3_SpA_R_20261008.png")
-pdf_file <- file.path(outdir, "Fig3_SpA_R_20261008.pdf")
+png_file <- file.path(outdir, "Fig3_ggplot2_R002_R003_D_20260807.png")
+pdf_file <- file.path(outdir, "Fig3_ggplot2_R002_R003_D_20260807.pdf")
 
 
 draw_hatched_key <- function(x, y, fill, label) {
@@ -401,23 +429,23 @@ draw_manual_legend <- function() {
   pushViewport(viewport(xscale = c(0, 1), yscale = c(0, 1)))
   grid.text(
     "Spicule arrangement",
-    x = 0.035, y = 0.72,
+    x = 0.035, y = 0.56,
     just = c("left", "center"),
     gp = gpar(fontfamily = "sans", fontsize = 9.2, fontface = "bold")
   )
-  x0 <- 0.215
+  x0 <- 0.18
   for (i in seq_along(arrangement_cols)) {
-    xx <- x0 + (i - 1) * 0.19
-    draw_plain_key(xx, 0.72, arrangement_cols[[i]], x_axis_labels[[i]])
+    xx <- x0 + (i - 1) * 0.13
+    draw_plain_key(xx, 0.56, arrangement_cols[[i]], x_axis_labels[[i]])
   }
   grid.text(
     "Region",
-    x = 0.39, y = 0.24,
+    x = 0.73, y = 0.56,
     just = c("left", "center"),
     gp = gpar(fontfamily = "sans", fontsize = 9.2, fontface = "bold")
   )
-  draw_hatched_key(0.49, 0.24, "gray92", "Mantle")
-  draw_plain_key(0.62, 0.24, "gray92", "Foot")
+  draw_hatched_key(0.805, 0.56, "gray92", "Mantle")
+  draw_plain_key(0.900, 0.56, "gray92", "Foot")
   popViewport()
 }
 draw_figure <- function() {
@@ -444,12 +472,9 @@ png(filename = png_file, width = 3300, height = 2300, res = 300, type = "cairo")
 draw_figure()
 dev.off()
 
-grDevices::cairo_pdf(filename = pdf_file, width = 11, height = 7.67, family = "sans")
+pdf(file = pdf_file, width = 11, height = 7.67, useDingbats = FALSE)
 draw_figure()
 dev.off()
 
 message("Wrote: ", png_file)
 message("Wrote: ", pdf_file)
-
-opt$permutations <- 0L
-write_run_metadata(opt, dat, c("ggplot2", "dunn.test", "multcompView"), "Fig. 3; deterministic, no permutations")
